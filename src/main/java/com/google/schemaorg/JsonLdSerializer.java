@@ -94,12 +94,19 @@ public class JsonLdSerializer {
   private final Gson gson;
 
   public JsonLdSerializer(boolean setPrettyPrinting) {
+    this(setPrettyPrinting, false);
+  }
+
+  public JsonLdSerializer(boolean setPrettyPrinting, boolean disableHtmlEscaping) {
     GsonBuilder gsonBuilder =
         new GsonBuilder()
             .registerTypeAdapter(thingTypeToken, new JsonLdTypeAdapter())
             .serializeNulls();
     if (setPrettyPrinting) {
       gsonBuilder.setPrettyPrinting();
+    }
+    if (disableHtmlEscaping) {
+      gsonBuilder.disableHtmlEscaping();
     }
     gson = gsonBuilder.create();
   }

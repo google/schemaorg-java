@@ -166,7 +166,7 @@ public abstract class SchemaOrgTypeImpl extends BaseTypeImpl implements SchemaOr
     for (String key : m1.keySet()) {
       Object[] m1Values = m1.get(key).toArray();
       Object[] m2Values = m2.get(key).toArray();
-      if (m2Values.length != m2Values.length) {
+      if (m2Values.length != m1Values.length) {
         return false;
       }
       for (int i = 0; i < m1Values.length; i++) {
