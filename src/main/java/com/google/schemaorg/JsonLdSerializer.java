@@ -740,7 +740,7 @@ public class JsonLdSerializer {
                   paramValue = method.invoke(null, java.lang.Float.parseFloat(strValue));
                 } else {
                   Method method = parameterType.getMethod(OF_METHOD_NAME, String.class);
-                  paramValue = method.invoke(null, ((Text) value).getValue());
+                  paramValue = method.invoke(null, ((Number) value).getValue());
                 }
                 break;
               } catch (NoSuchMethodException
