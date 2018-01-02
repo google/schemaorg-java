@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/InfectiousDisease}">http://schema.org/InfectiousDisease}</a>.
+ * href="http://schema.org/InfectiousDisease">http://schema.org/InfectiousDisease</a>.
  */
 public interface InfectiousDisease extends MedicalCondition {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/InfectiousDisease}">http://schema.org/InfectiousDisease}</a>.
+   * href="http://schema.org/InfectiousDisease">http://schema.org/InfectiousDisease</a>.
    */
   public interface Builder extends MedicalCondition.Builder {
 

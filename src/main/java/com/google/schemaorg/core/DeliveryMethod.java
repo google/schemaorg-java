@@ -17,6 +17,6 @@
 package com.google.schemaorg.core;
 
 /**
- * Interface of <a href="http://schema.org/DeliveryMethod}">http://schema.org/DeliveryMethod}</a>.
+ * Interface of <a href="http://schema.org/DeliveryMethod">http://schema.org/DeliveryMethod</a>.
  */
 public interface DeliveryMethod extends Enumeration {}

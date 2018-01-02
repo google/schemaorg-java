@@ -30,13 +30,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MobileApplication}">http://schema.org/MobileApplication}</a>.
+ * href="http://schema.org/MobileApplication">http://schema.org/MobileApplication</a>.
  */
 public interface MobileApplication extends SoftwareApplication {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MobileApplication}">http://schema.org/MobileApplication}</a>.
+   * href="http://schema.org/MobileApplication">http://schema.org/MobileApplication</a>.
    */
   public interface Builder extends SoftwareApplication.Builder {
 

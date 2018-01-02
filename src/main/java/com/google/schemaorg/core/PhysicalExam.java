@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/PhysicalExam}">http://schema.org/PhysicalExam}</a>. */
+/** Interface of <a href="http://schema.org/PhysicalExam">http://schema.org/PhysicalExam</a>. */
 public interface PhysicalExam extends Enumeration, MedicalEnumeration {}

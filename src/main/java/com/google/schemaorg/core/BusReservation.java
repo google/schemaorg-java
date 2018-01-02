@@ -26,13 +26,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/BusReservation}">http://schema.org/BusReservation}</a>.
+ * Interface of <a href="http://schema.org/BusReservation">http://schema.org/BusReservation</a>.
  */
 public interface BusReservation extends Reservation {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BusReservation}">http://schema.org/BusReservation}</a>.
+   * href="http://schema.org/BusReservation">http://schema.org/BusReservation</a>.
    */
   public interface Builder extends Reservation.Builder {
 

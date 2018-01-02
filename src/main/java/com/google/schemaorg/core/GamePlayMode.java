@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/GamePlayMode}">http://schema.org/GamePlayMode}</a>. */
+/** Interface of <a href="http://schema.org/GamePlayMode">http://schema.org/GamePlayMode</a>. */
 public interface GamePlayMode extends Enumeration {}

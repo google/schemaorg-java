@@ -28,12 +28,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DataCatalog}">http://schema.org/DataCatalog}</a>. */
+/** Interface of <a href="http://schema.org/DataCatalog">http://schema.org/DataCatalog</a>. */
 public interface DataCatalog extends CreativeWork {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DataCatalog}">http://schema.org/DataCatalog}</a>.
+   * href="http://schema.org/DataCatalog">http://schema.org/DataCatalog</a>.
    */
   public interface Builder extends CreativeWork.Builder {
 

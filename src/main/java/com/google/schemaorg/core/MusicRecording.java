@@ -29,13 +29,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/MusicRecording}">http://schema.org/MusicRecording}</a>.
+ * Interface of <a href="http://schema.org/MusicRecording">http://schema.org/MusicRecording</a>.
  */
 public interface MusicRecording extends CreativeWork {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MusicRecording}">http://schema.org/MusicRecording}</a>.
+   * href="http://schema.org/MusicRecording">http://schema.org/MusicRecording</a>.
    */
   public interface Builder extends CreativeWork.Builder {
 

@@ -27,13 +27,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/AggregateRating}">http://schema.org/AggregateRating}</a>.
+ * Interface of <a href="http://schema.org/AggregateRating">http://schema.org/AggregateRating</a>.
  */
 public interface AggregateRating extends Rating {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AggregateRating}">http://schema.org/AggregateRating}</a>.
+   * href="http://schema.org/AggregateRating">http://schema.org/AggregateRating</a>.
    */
   public interface Builder extends Rating.Builder {
 

@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/LiquorStore}">http://schema.org/LiquorStore}</a>. */
+/** Interface of <a href="http://schema.org/LiquorStore">http://schema.org/LiquorStore</a>. */
 public interface LiquorStore extends Store {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/LiquorStore}">http://schema.org/LiquorStore}</a>.
+   * href="http://schema.org/LiquorStore">http://schema.org/LiquorStore</a>.
    */
   public interface Builder extends Store.Builder {
 

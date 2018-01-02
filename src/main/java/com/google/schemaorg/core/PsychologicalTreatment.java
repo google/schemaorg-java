@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/PsychologicalTreatment}">http://schema.org/PsychologicalTreatment}</a>.
+ * href="http://schema.org/PsychologicalTreatment">http://schema.org/PsychologicalTreatment</a>.
  */
 public interface PsychologicalTreatment extends MedicalTherapy {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PsychologicalTreatment}">http://schema.org/PsychologicalTreatment}</a>.
+   * href="http://schema.org/PsychologicalTreatment">http://schema.org/PsychologicalTreatment</a>.
    */
   public interface Builder extends MedicalTherapy.Builder {
 

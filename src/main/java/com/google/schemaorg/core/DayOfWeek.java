@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/DayOfWeek}">http://schema.org/DayOfWeek}</a>. */
+/** Interface of <a href="http://schema.org/DayOfWeek">http://schema.org/DayOfWeek</a>. */
 public interface DayOfWeek extends Enumeration {}

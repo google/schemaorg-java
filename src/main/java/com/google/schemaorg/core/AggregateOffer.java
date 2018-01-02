@@ -29,13 +29,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/AggregateOffer}">http://schema.org/AggregateOffer}</a>.
+ * Interface of <a href="http://schema.org/AggregateOffer">http://schema.org/AggregateOffer</a>.
  */
 public interface AggregateOffer extends Offer {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AggregateOffer}">http://schema.org/AggregateOffer}</a>.
+   * href="http://schema.org/AggregateOffer">http://schema.org/AggregateOffer</a>.
    */
   public interface Builder extends Offer.Builder {
 

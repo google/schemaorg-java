@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/ItemAvailability}">http://schema.org/ItemAvailability}</a>.
+ * href="http://schema.org/ItemAvailability">http://schema.org/ItemAvailability</a>.
  */
 public interface ItemAvailability extends Enumeration {}

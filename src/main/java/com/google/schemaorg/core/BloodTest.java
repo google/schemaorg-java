@@ -23,11 +23,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BloodTest}">http://schema.org/BloodTest}</a>. */
+/** Interface of <a href="http://schema.org/BloodTest">http://schema.org/BloodTest</a>. */
 public interface BloodTest extends MedicalTest {
 
   /**
-   * Builder interface of <a href="http://schema.org/BloodTest}">http://schema.org/BloodTest}</a>.
+   * Builder interface of <a href="http://schema.org/BloodTest">http://schema.org/BloodTest</a>.
    */
   public interface Builder extends MedicalTest.Builder {
 

@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/AutomatedTeller}">http://schema.org/AutomatedTeller}</a>.
+ * Interface of <a href="http://schema.org/AutomatedTeller">http://schema.org/AutomatedTeller</a>.
  */
 public interface AutomatedTeller extends FinancialService {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AutomatedTeller}">http://schema.org/AutomatedTeller}</a>.
+   * href="http://schema.org/AutomatedTeller">http://schema.org/AutomatedTeller</a>.
    */
   public interface Builder extends FinancialService.Builder {
 

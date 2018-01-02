@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/HealthAndBeautyBusiness}">http://schema.org/HealthAndBeautyBusiness}</a>.
+ * href="http://schema.org/HealthAndBeautyBusiness">http://schema.org/HealthAndBeautyBusiness</a>.
  */
 public interface HealthAndBeautyBusiness extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/HealthAndBeautyBusiness}">http://schema.org/HealthAndBeautyBusiness}</a>.
+   * href="http://schema.org/HealthAndBeautyBusiness">http://schema.org/HealthAndBeautyBusiness</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

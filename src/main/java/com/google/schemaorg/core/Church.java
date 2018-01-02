@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Church}">http://schema.org/Church}</a>. */
+/** Interface of <a href="http://schema.org/Church">http://schema.org/Church</a>. */
 public interface Church extends PlaceOfWorship {
 
-  /** Builder interface of <a href="http://schema.org/Church}">http://schema.org/Church}</a>. */
+  /** Builder interface of <a href="http://schema.org/Church">http://schema.org/Church</a>. */
   public interface Builder extends PlaceOfWorship.Builder {
 
     @Override

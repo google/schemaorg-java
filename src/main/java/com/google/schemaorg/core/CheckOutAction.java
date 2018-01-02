@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/CheckOutAction}">http://schema.org/CheckOutAction}</a>.
+ * Interface of <a href="http://schema.org/CheckOutAction">http://schema.org/CheckOutAction</a>.
  */
 public interface CheckOutAction extends CommunicateAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/CheckOutAction}">http://schema.org/CheckOutAction}</a>.
+   * href="http://schema.org/CheckOutAction">http://schema.org/CheckOutAction</a>.
    */
   public interface Builder extends CommunicateAction.Builder {
 

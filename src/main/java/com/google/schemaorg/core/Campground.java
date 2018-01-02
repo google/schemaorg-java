@@ -23,11 +23,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Campground}">http://schema.org/Campground}</a>. */
+/** Interface of <a href="http://schema.org/Campground">http://schema.org/Campground</a>. */
 public interface Campground extends CivicStructure {
 
   /**
-   * Builder interface of <a href="http://schema.org/Campground}">http://schema.org/Campground}</a>.
+   * Builder interface of <a href="http://schema.org/Campground">http://schema.org/Campground</a>.
    */
   public interface Builder extends CivicStructure.Builder {
 

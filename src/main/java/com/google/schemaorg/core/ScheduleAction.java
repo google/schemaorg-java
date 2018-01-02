@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/ScheduleAction}">http://schema.org/ScheduleAction}</a>.
+ * Interface of <a href="http://schema.org/ScheduleAction">http://schema.org/ScheduleAction</a>.
  */
 public interface ScheduleAction extends PlanAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ScheduleAction}">http://schema.org/ScheduleAction}</a>.
+   * href="http://schema.org/ScheduleAction">http://schema.org/ScheduleAction</a>.
    */
   public interface Builder extends PlanAction.Builder {
 

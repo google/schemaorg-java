@@ -29,13 +29,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/MedicalWebPage}">http://schema.org/MedicalWebPage}</a>.
+ * Interface of <a href="http://schema.org/MedicalWebPage">http://schema.org/MedicalWebPage</a>.
  */
 public interface MedicalWebPage extends WebPage {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalWebPage}">http://schema.org/MedicalWebPage}</a>.
+   * href="http://schema.org/MedicalWebPage">http://schema.org/MedicalWebPage</a>.
    */
   public interface Builder extends WebPage.Builder {
 

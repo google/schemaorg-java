@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/HomeGoodsStore}">http://schema.org/HomeGoodsStore}</a>.
+ * Interface of <a href="http://schema.org/HomeGoodsStore">http://schema.org/HomeGoodsStore</a>.
  */
 public interface HomeGoodsStore extends Store {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/HomeGoodsStore}">http://schema.org/HomeGoodsStore}</a>.
+   * href="http://schema.org/HomeGoodsStore">http://schema.org/HomeGoodsStore</a>.
    */
   public interface Builder extends Store.Builder {
 

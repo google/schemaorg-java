@@ -23,11 +23,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Intangible}">http://schema.org/Intangible}</a>. */
+/** Interface of <a href="http://schema.org/Intangible">http://schema.org/Intangible</a>. */
 public interface Intangible extends Thing {
 
   /**
-   * Builder interface of <a href="http://schema.org/Intangible}">http://schema.org/Intangible}</a>.
+   * Builder interface of <a href="http://schema.org/Intangible">http://schema.org/Intangible</a>.
    */
   public interface Builder extends Thing.Builder {
 

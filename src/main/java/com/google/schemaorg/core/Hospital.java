@@ -25,10 +25,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Hospital}">http://schema.org/Hospital}</a>. */
+/** Interface of <a href="http://schema.org/Hospital">http://schema.org/Hospital</a>. */
 public interface Hospital extends CivicStructure, EmergencyService, MedicalOrganization {
 
-  /** Builder interface of <a href="http://schema.org/Hospital}">http://schema.org/Hospital}</a>. */
+  /** Builder interface of <a href="http://schema.org/Hospital">http://schema.org/Hospital</a>. */
   public interface Builder
       extends CivicStructure.Builder, EmergencyService.Builder, MedicalOrganization.Builder {
 

@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalTrialDesign}">http://schema.org/MedicalTrialDesign}</a>.
+ * href="http://schema.org/MedicalTrialDesign">http://schema.org/MedicalTrialDesign</a>.
  */
 public interface MedicalTrialDesign extends Enumeration, MedicalEnumeration {}

@@ -28,13 +28,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/OpeningHoursSpecification}">http://schema.org/OpeningHoursSpecification}</a>.
+ * href="http://schema.org/OpeningHoursSpecification">http://schema.org/OpeningHoursSpecification</a>.
  */
 public interface OpeningHoursSpecification extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/OpeningHoursSpecification}">http://schema.org/OpeningHoursSpecification}</a>.
+   * href="http://schema.org/OpeningHoursSpecification">http://schema.org/OpeningHoursSpecification</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

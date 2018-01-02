@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/TheaterGroup}">http://schema.org/TheaterGroup}</a>. */
+/** Interface of <a href="http://schema.org/TheaterGroup">http://schema.org/TheaterGroup</a>. */
 public interface TheaterGroup extends PerformingGroup {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/TheaterGroup}">http://schema.org/TheaterGroup}</a>.
+   * href="http://schema.org/TheaterGroup">http://schema.org/TheaterGroup</a>.
    */
   public interface Builder extends PerformingGroup.Builder {
 

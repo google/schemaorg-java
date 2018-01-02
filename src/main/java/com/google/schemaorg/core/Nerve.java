@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Nerve}">http://schema.org/Nerve}</a>. */
+/** Interface of <a href="http://schema.org/Nerve">http://schema.org/Nerve</a>. */
 public interface Nerve extends AnatomicalStructure {
 
-  /** Builder interface of <a href="http://schema.org/Nerve}">http://schema.org/Nerve}</a>. */
+  /** Builder interface of <a href="http://schema.org/Nerve">http://schema.org/Nerve</a>. */
   public interface Builder extends AnatomicalStructure.Builder {
 
     @Override

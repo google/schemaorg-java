@@ -28,12 +28,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ExercisePlan}">http://schema.org/ExercisePlan}</a>. */
+/** Interface of <a href="http://schema.org/ExercisePlan">http://schema.org/ExercisePlan</a>. */
 public interface ExercisePlan extends CreativeWork, PhysicalActivity {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ExercisePlan}">http://schema.org/ExercisePlan}</a>.
+   * href="http://schema.org/ExercisePlan">http://schema.org/ExercisePlan</a>.
    */
   public interface Builder extends CreativeWork.Builder, PhysicalActivity.Builder {
 

@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/PalliativeProcedure}">http://schema.org/PalliativeProcedure}</a>.
+ * href="http://schema.org/PalliativeProcedure">http://schema.org/PalliativeProcedure</a>.
  */
 public interface PalliativeProcedure extends MedicalProcedure, MedicalTherapy {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PalliativeProcedure}">http://schema.org/PalliativeProcedure}</a>.
+   * href="http://schema.org/PalliativeProcedure">http://schema.org/PalliativeProcedure</a>.
    */
   public interface Builder extends MedicalProcedure.Builder, MedicalTherapy.Builder {
 

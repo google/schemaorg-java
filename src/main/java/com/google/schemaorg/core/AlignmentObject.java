@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/AlignmentObject}">http://schema.org/AlignmentObject}</a>.
+ * Interface of <a href="http://schema.org/AlignmentObject">http://schema.org/AlignmentObject</a>.
  */
 public interface AlignmentObject extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AlignmentObject}">http://schema.org/AlignmentObject}</a>.
+   * href="http://schema.org/AlignmentObject">http://schema.org/AlignmentObject</a>.
    */
   public interface Builder extends Intangible.Builder {
 

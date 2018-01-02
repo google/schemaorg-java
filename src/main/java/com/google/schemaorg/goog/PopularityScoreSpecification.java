@@ -36,13 +36,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.googleapis.com/PopularityScoreSpecification}">http://schema.googleapis.com/PopularityScoreSpecification}</a>.
+ * href="http://schema.googleapis.com/PopularityScoreSpecification">http://schema.googleapis.com/PopularityScoreSpecification</a>.
  */
 public interface PopularityScoreSpecification extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.googleapis.com/PopularityScoreSpecification}">http://schema.googleapis.com/PopularityScoreSpecification}</a>.
+   * href="http://schema.googleapis.com/PopularityScoreSpecification">http://schema.googleapis.com/PopularityScoreSpecification</a>.
    */
   public interface Builder extends Intangible.Builder {
 

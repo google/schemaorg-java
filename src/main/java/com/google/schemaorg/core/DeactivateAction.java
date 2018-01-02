@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/DeactivateAction}">http://schema.org/DeactivateAction}</a>.
+ * href="http://schema.org/DeactivateAction">http://schema.org/DeactivateAction</a>.
  */
 public interface DeactivateAction extends ControlAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DeactivateAction}">http://schema.org/DeactivateAction}</a>.
+   * href="http://schema.org/DeactivateAction">http://schema.org/DeactivateAction</a>.
    */
   public interface Builder extends ControlAction.Builder {
 

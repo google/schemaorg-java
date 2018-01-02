@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/OfferItemCondition}">http://schema.org/OfferItemCondition}</a>.
+ * href="http://schema.org/OfferItemCondition">http://schema.org/OfferItemCondition</a>.
  */
 public interface OfferItemCondition extends Enumeration {}

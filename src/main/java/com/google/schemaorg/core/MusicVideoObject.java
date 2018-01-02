@@ -29,13 +29,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MusicVideoObject}">http://schema.org/MusicVideoObject}</a>.
+ * href="http://schema.org/MusicVideoObject">http://schema.org/MusicVideoObject</a>.
  */
 public interface MusicVideoObject extends MediaObject {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MusicVideoObject}">http://schema.org/MusicVideoObject}</a>.
+   * href="http://schema.org/MusicVideoObject">http://schema.org/MusicVideoObject</a>.
    */
   public interface Builder extends MediaObject.Builder {
 

@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/SteeringPositionValue}">http://schema.org/SteeringPositionValue}</a>.
+ * href="http://schema.org/SteeringPositionValue">http://schema.org/SteeringPositionValue</a>.
  */
 public interface SteeringPositionValue extends QualitativeValue {}

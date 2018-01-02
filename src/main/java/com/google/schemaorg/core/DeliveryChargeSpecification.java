@@ -28,13 +28,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/DeliveryChargeSpecification}">http://schema.org/DeliveryChargeSpecification}</a>.
+ * href="http://schema.org/DeliveryChargeSpecification">http://schema.org/DeliveryChargeSpecification</a>.
  */
 public interface DeliveryChargeSpecification extends PriceSpecification {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DeliveryChargeSpecification}">http://schema.org/DeliveryChargeSpecification}</a>.
+   * href="http://schema.org/DeliveryChargeSpecification">http://schema.org/DeliveryChargeSpecification</a>.
    */
   public interface Builder extends PriceSpecification.Builder {
 

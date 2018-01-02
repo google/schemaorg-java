@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalDevicePurpose}">http://schema.org/MedicalDevicePurpose}</a>.
+ * href="http://schema.org/MedicalDevicePurpose">http://schema.org/MedicalDevicePurpose</a>.
  */
 public interface MedicalDevicePurpose extends Enumeration, MedicalEnumeration {}

@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/TennisComplex}">http://schema.org/TennisComplex}</a>. */
+/** Interface of <a href="http://schema.org/TennisComplex">http://schema.org/TennisComplex</a>. */
 public interface TennisComplex extends SportsActivityLocation {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/TennisComplex}">http://schema.org/TennisComplex}</a>.
+   * href="http://schema.org/TennisComplex">http://schema.org/TennisComplex</a>.
    */
   public interface Builder extends SportsActivityLocation.Builder {
 

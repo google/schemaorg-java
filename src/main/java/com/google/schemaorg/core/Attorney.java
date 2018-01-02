@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Attorney}">http://schema.org/Attorney}</a>. */
+/** Interface of <a href="http://schema.org/Attorney">http://schema.org/Attorney</a>. */
 public interface Attorney extends LegalService {
 
-  /** Builder interface of <a href="http://schema.org/Attorney}">http://schema.org/Attorney}</a>. */
+  /** Builder interface of <a href="http://schema.org/Attorney">http://schema.org/Attorney</a>. */
   public interface Builder extends LegalService.Builder {
 
     @Override

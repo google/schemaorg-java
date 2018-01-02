@@ -26,13 +26,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/TransferAction}">http://schema.org/TransferAction}</a>.
+ * Interface of <a href="http://schema.org/TransferAction">http://schema.org/TransferAction</a>.
  */
 public interface TransferAction extends Action {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/TransferAction}">http://schema.org/TransferAction}</a>.
+   * href="http://schema.org/TransferAction">http://schema.org/TransferAction</a>.
    */
   public interface Builder extends Action.Builder {
 

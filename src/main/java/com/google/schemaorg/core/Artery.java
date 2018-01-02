@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Artery}">http://schema.org/Artery}</a>. */
+/** Interface of <a href="http://schema.org/Artery">http://schema.org/Artery</a>. */
 public interface Artery extends Vessel {
 
-  /** Builder interface of <a href="http://schema.org/Artery}">http://schema.org/Artery}</a>. */
+  /** Builder interface of <a href="http://schema.org/Artery">http://schema.org/Artery</a>. */
   public interface Builder extends Vessel.Builder {
 
     @Override

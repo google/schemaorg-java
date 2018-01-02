@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/MedicalSign}">http://schema.org/MedicalSign}</a>. */
+/** Interface of <a href="http://schema.org/MedicalSign">http://schema.org/MedicalSign</a>. */
 public interface MedicalSign extends MedicalSignOrSymptom {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalSign}">http://schema.org/MedicalSign}</a>.
+   * href="http://schema.org/MedicalSign">http://schema.org/MedicalSign</a>.
    */
   public interface Builder extends MedicalSignOrSymptom.Builder {
 

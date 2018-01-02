@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BowlingAlley}">http://schema.org/BowlingAlley}</a>. */
+/** Interface of <a href="http://schema.org/BowlingAlley">http://schema.org/BowlingAlley</a>. */
 public interface BowlingAlley extends SportsActivityLocation {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BowlingAlley}">http://schema.org/BowlingAlley}</a>.
+   * href="http://schema.org/BowlingAlley">http://schema.org/BowlingAlley</a>.
    */
   public interface Builder extends SportsActivityLocation.Builder {
 

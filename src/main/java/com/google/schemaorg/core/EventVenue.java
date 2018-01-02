@@ -23,11 +23,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/EventVenue}">http://schema.org/EventVenue}</a>. */
+/** Interface of <a href="http://schema.org/EventVenue">http://schema.org/EventVenue</a>. */
 public interface EventVenue extends CivicStructure {
 
   /**
-   * Builder interface of <a href="http://schema.org/EventVenue}">http://schema.org/EventVenue}</a>.
+   * Builder interface of <a href="http://schema.org/EventVenue">http://schema.org/EventVenue</a>.
    */
   public interface Builder extends CivicStructure.Builder {
 

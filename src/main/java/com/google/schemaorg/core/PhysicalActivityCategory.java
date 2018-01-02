@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/PhysicalActivityCategory}">http://schema.org/PhysicalActivityCategory}</a>.
+ * href="http://schema.org/PhysicalActivityCategory">http://schema.org/PhysicalActivityCategory</a>.
  */
 public interface PhysicalActivityCategory extends Enumeration, MedicalEnumeration {}

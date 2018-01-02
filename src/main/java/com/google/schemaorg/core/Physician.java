@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Physician}">http://schema.org/Physician}</a>. */
+/** Interface of <a href="http://schema.org/Physician">http://schema.org/Physician</a>. */
 public interface Physician extends MedicalOrganization {
 
   /**
-   * Builder interface of <a href="http://schema.org/Physician}">http://schema.org/Physician}</a>.
+   * Builder interface of <a href="http://schema.org/Physician">http://schema.org/Physician</a>.
    */
   public interface Builder extends MedicalOrganization.Builder {
 

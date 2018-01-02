@@ -28,10 +28,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Movie}">http://schema.org/Movie}</a>. */
+/** Interface of <a href="http://schema.org/Movie">http://schema.org/Movie</a>. */
 public interface Movie extends CreativeWork {
 
-  /** Builder interface of <a href="http://schema.org/Movie}">http://schema.org/Movie}</a>. */
+  /** Builder interface of <a href="http://schema.org/Movie">http://schema.org/Movie</a>. */
   public interface Builder extends CreativeWork.Builder {
 
     @Override

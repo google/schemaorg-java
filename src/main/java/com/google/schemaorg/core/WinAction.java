@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/WinAction}">http://schema.org/WinAction}</a>. */
+/** Interface of <a href="http://schema.org/WinAction">http://schema.org/WinAction</a>. */
 public interface WinAction extends AchieveAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/WinAction}">http://schema.org/WinAction}</a>.
+   * Builder interface of <a href="http://schema.org/WinAction">http://schema.org/WinAction</a>.
    */
   public interface Builder extends AchieveAction.Builder {
 

@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/AutomotiveBusiness}">http://schema.org/AutomotiveBusiness}</a>.
+ * href="http://schema.org/AutomotiveBusiness">http://schema.org/AutomotiveBusiness</a>.
  */
 public interface AutomotiveBusiness extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AutomotiveBusiness}">http://schema.org/AutomotiveBusiness}</a>.
+   * href="http://schema.org/AutomotiveBusiness">http://schema.org/AutomotiveBusiness</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

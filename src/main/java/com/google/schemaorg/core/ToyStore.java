@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ToyStore}">http://schema.org/ToyStore}</a>. */
+/** Interface of <a href="http://schema.org/ToyStore">http://schema.org/ToyStore</a>. */
 public interface ToyStore extends Store {
 
-  /** Builder interface of <a href="http://schema.org/ToyStore}">http://schema.org/ToyStore}</a>. */
+  /** Builder interface of <a href="http://schema.org/ToyStore">http://schema.org/ToyStore</a>. */
   public interface Builder extends Store.Builder {
 
     @Override

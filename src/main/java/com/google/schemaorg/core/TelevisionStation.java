@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/TelevisionStation}">http://schema.org/TelevisionStation}</a>.
+ * href="http://schema.org/TelevisionStation">http://schema.org/TelevisionStation</a>.
  */
 public interface TelevisionStation extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/TelevisionStation}">http://schema.org/TelevisionStation}</a>.
+   * href="http://schema.org/TelevisionStation">http://schema.org/TelevisionStation</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

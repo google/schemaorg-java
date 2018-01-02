@@ -24,13 +24,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/ParkingFacility}">http://schema.org/ParkingFacility}</a>.
+ * Interface of <a href="http://schema.org/ParkingFacility">http://schema.org/ParkingFacility</a>.
  */
 public interface ParkingFacility extends CivicStructure {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ParkingFacility}">http://schema.org/ParkingFacility}</a>.
+   * href="http://schema.org/ParkingFacility">http://schema.org/ParkingFacility</a>.
    */
   public interface Builder extends CivicStructure.Builder {
 

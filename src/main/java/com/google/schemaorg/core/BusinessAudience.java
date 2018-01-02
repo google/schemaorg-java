@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/BusinessAudience}">http://schema.org/BusinessAudience}</a>.
+ * href="http://schema.org/BusinessAudience">http://schema.org/BusinessAudience</a>.
  */
 public interface BusinessAudience extends Audience {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BusinessAudience}">http://schema.org/BusinessAudience}</a>.
+   * href="http://schema.org/BusinessAudience">http://schema.org/BusinessAudience</a>.
    */
   public interface Builder extends Audience.Builder {
 

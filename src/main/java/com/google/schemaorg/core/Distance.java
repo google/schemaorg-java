@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Distance}">http://schema.org/Distance}</a>. */
+/** Interface of <a href="http://schema.org/Distance">http://schema.org/Distance</a>. */
 public interface Distance extends Quantity {
 
-  /** Builder interface of <a href="http://schema.org/Distance}">http://schema.org/Distance}</a>. */
+  /** Builder interface of <a href="http://schema.org/Distance">http://schema.org/Distance</a>. */
   public interface Builder extends Quantity.Builder {
 
     @Override

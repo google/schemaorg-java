@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/LegalService}">http://schema.org/LegalService}</a>. */
+/** Interface of <a href="http://schema.org/LegalService">http://schema.org/LegalService</a>. */
 public interface LegalService extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/LegalService}">http://schema.org/LegalService}</a>.
+   * href="http://schema.org/LegalService">http://schema.org/LegalService</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

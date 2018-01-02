@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/DrugPregnancyCategory}">http://schema.org/DrugPregnancyCategory}</a>.
+ * href="http://schema.org/DrugPregnancyCategory">http://schema.org/DrugPregnancyCategory</a>.
  */
 public interface DrugPregnancyCategory extends Enumeration, MedicalEnumeration {}

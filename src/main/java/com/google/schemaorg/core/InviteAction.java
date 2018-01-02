@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/InviteAction}">http://schema.org/InviteAction}</a>. */
+/** Interface of <a href="http://schema.org/InviteAction">http://schema.org/InviteAction</a>. */
 public interface InviteAction extends CommunicateAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/InviteAction}">http://schema.org/InviteAction}</a>.
+   * href="http://schema.org/InviteAction">http://schema.org/InviteAction</a>.
    */
   public interface Builder extends CommunicateAction.Builder {
 

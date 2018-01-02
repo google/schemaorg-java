@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Brewery}">http://schema.org/Brewery}</a>. */
+/** Interface of <a href="http://schema.org/Brewery">http://schema.org/Brewery</a>. */
 public interface Brewery extends FoodEstablishment {
 
-  /** Builder interface of <a href="http://schema.org/Brewery}">http://schema.org/Brewery}</a>. */
+  /** Builder interface of <a href="http://schema.org/Brewery">http://schema.org/Brewery</a>. */
   public interface Builder extends FoodEstablishment.Builder {
 
     @Override

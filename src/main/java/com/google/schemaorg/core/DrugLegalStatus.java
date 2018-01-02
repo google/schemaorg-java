@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/DrugLegalStatus}">http://schema.org/DrugLegalStatus}</a>.
+ * Interface of <a href="http://schema.org/DrugLegalStatus">http://schema.org/DrugLegalStatus</a>.
  */
 public interface DrugLegalStatus extends MedicalIntangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DrugLegalStatus}">http://schema.org/DrugLegalStatus}</a>.
+   * href="http://schema.org/DrugLegalStatus">http://schema.org/DrugLegalStatus</a>.
    */
   public interface Builder extends MedicalIntangible.Builder {
 

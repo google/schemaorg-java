@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/FoodEstablishment}">http://schema.org/FoodEstablishment}</a>.
+ * href="http://schema.org/FoodEstablishment">http://schema.org/FoodEstablishment</a>.
  */
 public interface FoodEstablishment extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/FoodEstablishment}">http://schema.org/FoodEstablishment}</a>.
+   * href="http://schema.org/FoodEstablishment">http://schema.org/FoodEstablishment</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/PlanAction}">http://schema.org/PlanAction}</a>. */
+/** Interface of <a href="http://schema.org/PlanAction">http://schema.org/PlanAction</a>. */
 public interface PlanAction extends OrganizeAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/PlanAction}">http://schema.org/PlanAction}</a>.
+   * Builder interface of <a href="http://schema.org/PlanAction">http://schema.org/PlanAction</a>.
    */
   public interface Builder extends OrganizeAction.Builder {
 

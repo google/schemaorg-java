@@ -25,10 +25,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DrugCost}">http://schema.org/DrugCost}</a>. */
+/** Interface of <a href="http://schema.org/DrugCost">http://schema.org/DrugCost</a>. */
 public interface DrugCost extends MedicalIntangible {
 
-  /** Builder interface of <a href="http://schema.org/DrugCost}">http://schema.org/DrugCost}</a>. */
+  /** Builder interface of <a href="http://schema.org/DrugCost">http://schema.org/DrugCost</a>. */
   public interface Builder extends MedicalIntangible.Builder {
 
     @Override

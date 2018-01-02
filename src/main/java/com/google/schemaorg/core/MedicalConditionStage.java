@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalConditionStage}">http://schema.org/MedicalConditionStage}</a>.
+ * href="http://schema.org/MedicalConditionStage">http://schema.org/MedicalConditionStage</a>.
  */
 public interface MedicalConditionStage extends MedicalIntangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalConditionStage}">http://schema.org/MedicalConditionStage}</a>.
+   * href="http://schema.org/MedicalConditionStage">http://schema.org/MedicalConditionStage</a>.
    */
   public interface Builder extends MedicalIntangible.Builder {
 

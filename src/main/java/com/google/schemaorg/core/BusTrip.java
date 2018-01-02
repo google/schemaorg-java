@@ -25,10 +25,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BusTrip}">http://schema.org/BusTrip}</a>. */
+/** Interface of <a href="http://schema.org/BusTrip">http://schema.org/BusTrip</a>. */
 public interface BusTrip extends Intangible {
 
-  /** Builder interface of <a href="http://schema.org/BusTrip}">http://schema.org/BusTrip}</a>. */
+  /** Builder interface of <a href="http://schema.org/BusTrip">http://schema.org/BusTrip</a>. */
   public interface Builder extends Intangible.Builder {
 
     @Override

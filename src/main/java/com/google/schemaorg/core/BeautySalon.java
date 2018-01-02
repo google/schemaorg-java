@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BeautySalon}">http://schema.org/BeautySalon}</a>. */
+/** Interface of <a href="http://schema.org/BeautySalon">http://schema.org/BeautySalon</a>. */
 public interface BeautySalon extends HealthAndBeautyBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BeautySalon}">http://schema.org/BeautySalon}</a>.
+   * href="http://schema.org/BeautySalon">http://schema.org/BeautySalon</a>.
    */
   public interface Builder extends HealthAndBeautyBusiness.Builder {
 

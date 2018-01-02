@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/RVPark}">http://schema.org/RVPark}</a>. */
+/** Interface of <a href="http://schema.org/RVPark">http://schema.org/RVPark</a>. */
 public interface RVPark extends CivicStructure {
 
-  /** Builder interface of <a href="http://schema.org/RVPark}">http://schema.org/RVPark}</a>. */
+  /** Builder interface of <a href="http://schema.org/RVPark">http://schema.org/RVPark</a>. */
   public interface Builder extends CivicStructure.Builder {
 
     @Override

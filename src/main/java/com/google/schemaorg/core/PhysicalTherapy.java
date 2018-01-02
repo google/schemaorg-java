@@ -24,13 +24,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/PhysicalTherapy}">http://schema.org/PhysicalTherapy}</a>.
+ * Interface of <a href="http://schema.org/PhysicalTherapy">http://schema.org/PhysicalTherapy</a>.
  */
 public interface PhysicalTherapy extends MedicalTherapy {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PhysicalTherapy}">http://schema.org/PhysicalTherapy}</a>.
+   * href="http://schema.org/PhysicalTherapy">http://schema.org/PhysicalTherapy</a>.
    */
   public interface Builder extends MedicalTherapy.Builder {
 

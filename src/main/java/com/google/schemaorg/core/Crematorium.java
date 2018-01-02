@@ -23,12 +23,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Crematorium}">http://schema.org/Crematorium}</a>. */
+/** Interface of <a href="http://schema.org/Crematorium">http://schema.org/Crematorium</a>. */
 public interface Crematorium extends CivicStructure {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/Crematorium}">http://schema.org/Crematorium}</a>.
+   * href="http://schema.org/Crematorium">http://schema.org/Crematorium</a>.
    */
   public interface Builder extends CivicStructure.Builder {
 

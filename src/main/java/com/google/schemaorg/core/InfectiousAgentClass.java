@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/InfectiousAgentClass}">http://schema.org/InfectiousAgentClass}</a>.
+ * href="http://schema.org/InfectiousAgentClass">http://schema.org/InfectiousAgentClass</a>.
  */
 public interface InfectiousAgentClass extends Enumeration, MedicalEnumeration {}

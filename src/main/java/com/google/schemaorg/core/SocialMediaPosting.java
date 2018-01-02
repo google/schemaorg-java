@@ -30,13 +30,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/SocialMediaPosting}">http://schema.org/SocialMediaPosting}</a>.
+ * href="http://schema.org/SocialMediaPosting">http://schema.org/SocialMediaPosting</a>.
  */
 public interface SocialMediaPosting extends Article {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/SocialMediaPosting}">http://schema.org/SocialMediaPosting}</a>.
+   * href="http://schema.org/SocialMediaPosting">http://schema.org/SocialMediaPosting</a>.
    */
   public interface Builder extends Article.Builder {
 

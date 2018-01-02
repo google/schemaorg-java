@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/StadiumOrArena}">http://schema.org/StadiumOrArena}</a>.
+ * Interface of <a href="http://schema.org/StadiumOrArena">http://schema.org/StadiumOrArena</a>.
  */
 public interface StadiumOrArena extends CivicStructure, SportsActivityLocation {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/StadiumOrArena}">http://schema.org/StadiumOrArena}</a>.
+   * href="http://schema.org/StadiumOrArena">http://schema.org/StadiumOrArena</a>.
    */
   public interface Builder extends CivicStructure.Builder, SportsActivityLocation.Builder {
 

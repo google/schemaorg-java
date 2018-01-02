@@ -26,12 +26,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/SportsEvent}">http://schema.org/SportsEvent}</a>. */
+/** Interface of <a href="http://schema.org/SportsEvent">http://schema.org/SportsEvent</a>. */
 public interface SportsEvent extends Event {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/SportsEvent}">http://schema.org/SportsEvent}</a>.
+   * href="http://schema.org/SportsEvent">http://schema.org/SportsEvent</a>.
    */
   public interface Builder extends Event.Builder {
 

@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Taxi}">http://schema.org/Taxi}</a>. */
+/** Interface of <a href="http://schema.org/Taxi">http://schema.org/Taxi</a>. */
 public interface Taxi extends Service {
 
-  /** Builder interface of <a href="http://schema.org/Taxi}">http://schema.org/Taxi}</a>. */
+  /** Builder interface of <a href="http://schema.org/Taxi">http://schema.org/Taxi</a>. */
   public interface Builder extends Service.Builder {
 
     @Override

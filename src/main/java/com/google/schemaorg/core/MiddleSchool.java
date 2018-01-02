@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/MiddleSchool}">http://schema.org/MiddleSchool}</a>. */
+/** Interface of <a href="http://schema.org/MiddleSchool">http://schema.org/MiddleSchool</a>. */
 public interface MiddleSchool extends EducationalOrganization {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MiddleSchool}">http://schema.org/MiddleSchool}</a>.
+   * href="http://schema.org/MiddleSchool">http://schema.org/MiddleSchool</a>.
    */
   public interface Builder extends EducationalOrganization.Builder {
 

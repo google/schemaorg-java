@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/WarrantyScope}">http://schema.org/WarrantyScope}</a>. */
+/** Interface of <a href="http://schema.org/WarrantyScope">http://schema.org/WarrantyScope</a>. */
 public interface WarrantyScope extends Enumeration {}

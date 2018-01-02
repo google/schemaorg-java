@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ConfirmAction}">http://schema.org/ConfirmAction}</a>. */
+/** Interface of <a href="http://schema.org/ConfirmAction">http://schema.org/ConfirmAction</a>. */
 public interface ConfirmAction extends InformAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ConfirmAction}">http://schema.org/ConfirmAction}</a>.
+   * href="http://schema.org/ConfirmAction">http://schema.org/ConfirmAction</a>.
    */
   public interface Builder extends InformAction.Builder {
 

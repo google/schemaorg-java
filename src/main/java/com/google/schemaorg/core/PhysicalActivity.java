@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/PhysicalActivity}">http://schema.org/PhysicalActivity}</a>.
+ * href="http://schema.org/PhysicalActivity">http://schema.org/PhysicalActivity</a>.
  */
 public interface PhysicalActivity extends LifestyleModification {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PhysicalActivity}">http://schema.org/PhysicalActivity}</a>.
+   * href="http://schema.org/PhysicalActivity">http://schema.org/PhysicalActivity</a>.
    */
   public interface Builder extends LifestyleModification.Builder {
 

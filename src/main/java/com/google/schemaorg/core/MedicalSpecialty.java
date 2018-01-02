@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalSpecialty}">http://schema.org/MedicalSpecialty}</a>.
+ * href="http://schema.org/MedicalSpecialty">http://schema.org/MedicalSpecialty</a>.
  */
 public interface MedicalSpecialty extends Enumeration, MedicalEnumeration, Specialty {}

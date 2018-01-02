@@ -26,10 +26,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Invoice}">http://schema.org/Invoice}</a>. */
+/** Interface of <a href="http://schema.org/Invoice">http://schema.org/Invoice</a>. */
 public interface Invoice extends Intangible {
 
-  /** Builder interface of <a href="http://schema.org/Invoice}">http://schema.org/Invoice}</a>. */
+  /** Builder interface of <a href="http://schema.org/Invoice">http://schema.org/Invoice</a>. */
   public interface Builder extends Intangible.Builder {
 
     @Override

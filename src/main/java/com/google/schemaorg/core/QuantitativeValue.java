@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/QuantitativeValue}">http://schema.org/QuantitativeValue}</a>.
+ * href="http://schema.org/QuantitativeValue">http://schema.org/QuantitativeValue</a>.
  */
 public interface QuantitativeValue extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/QuantitativeValue}">http://schema.org/QuantitativeValue}</a>.
+   * href="http://schema.org/QuantitativeValue">http://schema.org/QuantitativeValue</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

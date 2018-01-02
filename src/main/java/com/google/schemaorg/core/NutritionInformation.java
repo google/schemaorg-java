@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/NutritionInformation}">http://schema.org/NutritionInformation}</a>.
+ * href="http://schema.org/NutritionInformation">http://schema.org/NutritionInformation</a>.
  */
 public interface NutritionInformation extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/NutritionInformation}">http://schema.org/NutritionInformation}</a>.
+   * href="http://schema.org/NutritionInformation">http://schema.org/NutritionInformation</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

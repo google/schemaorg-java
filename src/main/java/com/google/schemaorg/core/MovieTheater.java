@@ -26,12 +26,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/MovieTheater}">http://schema.org/MovieTheater}</a>. */
+/** Interface of <a href="http://schema.org/MovieTheater">http://schema.org/MovieTheater</a>. */
 public interface MovieTheater extends CivicStructure, EntertainmentBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MovieTheater}">http://schema.org/MovieTheater}</a>.
+   * href="http://schema.org/MovieTheater">http://schema.org/MovieTheater</a>.
    */
   public interface Builder extends CivicStructure.Builder, EntertainmentBusiness.Builder {
 

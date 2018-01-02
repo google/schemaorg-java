@@ -32,13 +32,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.googleapis.com/EntitySearchResult}">http://schema.googleapis.com/EntitySearchResult}</a>.
+ * href="http://schema.googleapis.com/EntitySearchResult">http://schema.googleapis.com/EntitySearchResult</a>.
  */
 public interface EntitySearchResult extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.googleapis.com/EntitySearchResult}">http://schema.googleapis.com/EntitySearchResult}</a>.
+   * href="http://schema.googleapis.com/EntitySearchResult">http://schema.googleapis.com/EntitySearchResult</a>.
    */
   public interface Builder extends Intangible.Builder {
 

@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/InternetCafe}">http://schema.org/InternetCafe}</a>. */
+/** Interface of <a href="http://schema.org/InternetCafe">http://schema.org/InternetCafe</a>. */
 public interface InternetCafe extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/InternetCafe}">http://schema.org/InternetCafe}</a>.
+   * href="http://schema.org/InternetCafe">http://schema.org/InternetCafe</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

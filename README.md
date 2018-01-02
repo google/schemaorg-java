@@ -1,5 +1,6 @@
 # Schema.org Client Library for Java
 
+-   [Fork](#Fork)
 -   [Overview](#Overview)
 -   [Highlighted Features](#Highlighted_Features)
 -   [Quick Start](#Quick_Start)
@@ -7,6 +8,13 @@
 -   [Example Code](#Example_Code)
 -   [Dependencies](#Dependencies)
 -   [Links](#Links)
+
+## <a name='Fork'>Fork</a>
+This repository is a fork of the 
+[Google Schema.org-Java](https://github.com/google/schemaorg-java) repository.
+
+This repository was created in order to deploy the project on maven central
+and to continue its development.
 
 ## <a name='Overview'>Overview</a>
 

@@ -23,11 +23,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Courthouse}">http://schema.org/Courthouse}</a>. */
+/** Interface of <a href="http://schema.org/Courthouse">http://schema.org/Courthouse</a>. */
 public interface Courthouse extends GovernmentBuilding {
 
   /**
-   * Builder interface of <a href="http://schema.org/Courthouse}">http://schema.org/Courthouse}</a>.
+   * Builder interface of <a href="http://schema.org/Courthouse">http://schema.org/Courthouse</a>.
    */
   public interface Builder extends GovernmentBuilding.Builder {
 

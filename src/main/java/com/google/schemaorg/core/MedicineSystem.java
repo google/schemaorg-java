@@ -17,6 +17,6 @@
 package com.google.schemaorg.core;
 
 /**
- * Interface of <a href="http://schema.org/MedicineSystem}">http://schema.org/MedicineSystem}</a>.
+ * Interface of <a href="http://schema.org/MedicineSystem">http://schema.org/MedicineSystem</a>.
  */
 public interface MedicineSystem extends Enumeration, MedicalEnumeration {}

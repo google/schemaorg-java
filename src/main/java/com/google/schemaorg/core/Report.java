@@ -28,10 +28,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Report}">http://schema.org/Report}</a>. */
+/** Interface of <a href="http://schema.org/Report">http://schema.org/Report</a>. */
 public interface Report extends Article {
 
-  /** Builder interface of <a href="http://schema.org/Report}">http://schema.org/Report}</a>. */
+  /** Builder interface of <a href="http://schema.org/Report">http://schema.org/Report</a>. */
   public interface Builder extends Article.Builder {
 
     @Override

@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Country}">http://schema.org/Country}</a>. */
+/** Interface of <a href="http://schema.org/Country">http://schema.org/Country</a>. */
 public interface Country extends AdministrativeArea {
 
-  /** Builder interface of <a href="http://schema.org/Country}">http://schema.org/Country}</a>. */
+  /** Builder interface of <a href="http://schema.org/Country">http://schema.org/Country</a>. */
   public interface Builder extends AdministrativeArea.Builder {
 
     @Override

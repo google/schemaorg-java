@@ -29,13 +29,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/LiveBlogPosting}">http://schema.org/LiveBlogPosting}</a>.
+ * Interface of <a href="http://schema.org/LiveBlogPosting">http://schema.org/LiveBlogPosting</a>.
  */
 public interface LiveBlogPosting extends BlogPosting {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/LiveBlogPosting}">http://schema.org/LiveBlogPosting}</a>.
+   * href="http://schema.org/LiveBlogPosting">http://schema.org/LiveBlogPosting</a>.
    */
   public interface Builder extends BlogPosting.Builder {
 

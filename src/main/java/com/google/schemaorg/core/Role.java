@@ -25,10 +25,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Role}">http://schema.org/Role}</a>. */
+/** Interface of <a href="http://schema.org/Role">http://schema.org/Role</a>. */
 public interface Role extends Intangible {
 
-  /** Builder interface of <a href="http://schema.org/Role}">http://schema.org/Role}</a>. */
+  /** Builder interface of <a href="http://schema.org/Role">http://schema.org/Role</a>. */
   public interface Builder extends Intangible.Builder {
 
     @Override

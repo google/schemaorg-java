@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/LendAction}">http://schema.org/LendAction}</a>. */
+/** Interface of <a href="http://schema.org/LendAction">http://schema.org/LendAction</a>. */
 public interface LendAction extends TransferAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/LendAction}">http://schema.org/LendAction}</a>.
+   * Builder interface of <a href="http://schema.org/LendAction">http://schema.org/LendAction</a>.
    */
   public interface Builder extends TransferAction.Builder {
 

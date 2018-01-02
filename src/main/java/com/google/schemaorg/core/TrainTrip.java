@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/TrainTrip}">http://schema.org/TrainTrip}</a>. */
+/** Interface of <a href="http://schema.org/TrainTrip">http://schema.org/TrainTrip</a>. */
 public interface TrainTrip extends Intangible {
 
   /**
-   * Builder interface of <a href="http://schema.org/TrainTrip}">http://schema.org/TrainTrip}</a>.
+   * Builder interface of <a href="http://schema.org/TrainTrip">http://schema.org/TrainTrip</a>.
    */
   public interface Builder extends Intangible.Builder {
 

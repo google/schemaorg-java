@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/VoteAction}">http://schema.org/VoteAction}</a>. */
+/** Interface of <a href="http://schema.org/VoteAction">http://schema.org/VoteAction</a>. */
 public interface VoteAction extends ChooseAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/VoteAction}">http://schema.org/VoteAction}</a>.
+   * Builder interface of <a href="http://schema.org/VoteAction">http://schema.org/VoteAction</a>.
    */
   public interface Builder extends ChooseAction.Builder {
 

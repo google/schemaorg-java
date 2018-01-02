@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/PaymentMethod}">http://schema.org/PaymentMethod}</a>. */
+/** Interface of <a href="http://schema.org/PaymentMethod">http://schema.org/PaymentMethod</a>. */
 public interface PaymentMethod extends Enumeration {}

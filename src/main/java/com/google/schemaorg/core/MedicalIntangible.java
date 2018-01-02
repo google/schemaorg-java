@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalIntangible}">http://schema.org/MedicalIntangible}</a>.
+ * href="http://schema.org/MedicalIntangible">http://schema.org/MedicalIntangible</a>.
  */
 public interface MedicalIntangible extends MedicalEntity {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalIntangible}">http://schema.org/MedicalIntangible}</a>.
+   * href="http://schema.org/MedicalIntangible">http://schema.org/MedicalIntangible</a>.
    */
   public interface Builder extends MedicalEntity.Builder {
 

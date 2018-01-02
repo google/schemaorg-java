@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/SubscribeAction}">http://schema.org/SubscribeAction}</a>.
+ * Interface of <a href="http://schema.org/SubscribeAction">http://schema.org/SubscribeAction</a>.
  */
 public interface SubscribeAction extends InteractAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/SubscribeAction}">http://schema.org/SubscribeAction}</a>.
+   * href="http://schema.org/SubscribeAction">http://schema.org/SubscribeAction</a>.
    */
   public interface Builder extends InteractAction.Builder {
 

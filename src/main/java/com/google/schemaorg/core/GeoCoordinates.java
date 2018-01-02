@@ -26,13 +26,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/GeoCoordinates}">http://schema.org/GeoCoordinates}</a>.
+ * Interface of <a href="http://schema.org/GeoCoordinates">http://schema.org/GeoCoordinates</a>.
  */
 public interface GeoCoordinates extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/GeoCoordinates}">http://schema.org/GeoCoordinates}</a>.
+   * href="http://schema.org/GeoCoordinates">http://schema.org/GeoCoordinates</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

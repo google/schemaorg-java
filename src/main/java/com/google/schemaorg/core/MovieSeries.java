@@ -28,12 +28,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/MovieSeries}">http://schema.org/MovieSeries}</a>. */
+/** Interface of <a href="http://schema.org/MovieSeries">http://schema.org/MovieSeries</a>. */
 public interface MovieSeries extends CreativeWorkSeries {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MovieSeries}">http://schema.org/MovieSeries}</a>.
+   * href="http://schema.org/MovieSeries">http://schema.org/MovieSeries</a>.
    */
   public interface Builder extends CreativeWorkSeries.Builder {
 

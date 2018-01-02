@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MusicReleaseFormatType}">http://schema.org/MusicReleaseFormatType}</a>.
+ * href="http://schema.org/MusicReleaseFormatType">http://schema.org/MusicReleaseFormatType</a>.
  */
 public interface MusicReleaseFormatType extends Enumeration {}

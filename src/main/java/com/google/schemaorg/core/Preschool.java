@@ -24,11 +24,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Preschool}">http://schema.org/Preschool}</a>. */
+/** Interface of <a href="http://schema.org/Preschool">http://schema.org/Preschool</a>. */
 public interface Preschool extends EducationalOrganization {
 
   /**
-   * Builder interface of <a href="http://schema.org/Preschool}">http://schema.org/Preschool}</a>.
+   * Builder interface of <a href="http://schema.org/Preschool">http://schema.org/Preschool</a>.
    */
   public interface Builder extends EducationalOrganization.Builder {
 

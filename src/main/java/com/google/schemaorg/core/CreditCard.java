@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/CreditCard}">http://schema.org/CreditCard}</a>. */
+/** Interface of <a href="http://schema.org/CreditCard">http://schema.org/CreditCard</a>. */
 public interface CreditCard extends PaymentMethod {}

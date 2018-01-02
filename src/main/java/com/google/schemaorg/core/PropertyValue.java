@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/PropertyValue}">http://schema.org/PropertyValue}</a>. */
+/** Interface of <a href="http://schema.org/PropertyValue">http://schema.org/PropertyValue</a>. */
 public interface PropertyValue extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PropertyValue}">http://schema.org/PropertyValue}</a>.
+   * href="http://schema.org/PropertyValue">http://schema.org/PropertyValue</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

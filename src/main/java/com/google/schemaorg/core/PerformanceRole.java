@@ -26,13 +26,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/PerformanceRole}">http://schema.org/PerformanceRole}</a>.
+ * Interface of <a href="http://schema.org/PerformanceRole">http://schema.org/PerformanceRole</a>.
  */
 public interface PerformanceRole extends Role {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PerformanceRole}">http://schema.org/PerformanceRole}</a>.
+   * href="http://schema.org/PerformanceRole">http://schema.org/PerformanceRole</a>.
    */
   public interface Builder extends Role.Builder {
 

@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/PublicSwimmingPool}">http://schema.org/PublicSwimmingPool}</a>.
+ * href="http://schema.org/PublicSwimmingPool">http://schema.org/PublicSwimmingPool</a>.
  */
 public interface PublicSwimmingPool extends SportsActivityLocation {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PublicSwimmingPool}">http://schema.org/PublicSwimmingPool}</a>.
+   * href="http://schema.org/PublicSwimmingPool">http://schema.org/PublicSwimmingPool</a>.
    */
   public interface Builder extends SportsActivityLocation.Builder {
 

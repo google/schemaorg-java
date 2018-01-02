@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ContactPoint}">http://schema.org/ContactPoint}</a>. */
+/** Interface of <a href="http://schema.org/ContactPoint">http://schema.org/ContactPoint</a>. */
 public interface ContactPoint extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ContactPoint}">http://schema.org/ContactPoint}</a>.
+   * href="http://schema.org/ContactPoint">http://schema.org/ContactPoint</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

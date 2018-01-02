@@ -26,12 +26,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/OrderAction}">http://schema.org/OrderAction}</a>. */
+/** Interface of <a href="http://schema.org/OrderAction">http://schema.org/OrderAction</a>. */
 public interface OrderAction extends TradeAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/OrderAction}">http://schema.org/OrderAction}</a>.
+   * href="http://schema.org/OrderAction">http://schema.org/OrderAction</a>.
    */
   public interface Builder extends TradeAction.Builder {
 

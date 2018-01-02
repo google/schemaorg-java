@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BarOrPub}">http://schema.org/BarOrPub}</a>. */
+/** Interface of <a href="http://schema.org/BarOrPub">http://schema.org/BarOrPub</a>. */
 public interface BarOrPub extends FoodEstablishment {
 
-  /** Builder interface of <a href="http://schema.org/BarOrPub}">http://schema.org/BarOrPub}</a>. */
+  /** Builder interface of <a href="http://schema.org/BarOrPub">http://schema.org/BarOrPub</a>. */
   public interface Builder extends FoodEstablishment.Builder {
 
     @Override

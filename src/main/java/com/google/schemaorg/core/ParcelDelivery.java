@@ -26,13 +26,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/ParcelDelivery}">http://schema.org/ParcelDelivery}</a>.
+ * Interface of <a href="http://schema.org/ParcelDelivery">http://schema.org/ParcelDelivery</a>.
  */
 public interface ParcelDelivery extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ParcelDelivery}">http://schema.org/ParcelDelivery}</a>.
+   * href="http://schema.org/ParcelDelivery">http://schema.org/ParcelDelivery</a>.
    */
   public interface Builder extends Intangible.Builder {
 

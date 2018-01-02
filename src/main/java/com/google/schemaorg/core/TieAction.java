@@ -24,11 +24,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/TieAction}">http://schema.org/TieAction}</a>. */
+/** Interface of <a href="http://schema.org/TieAction">http://schema.org/TieAction</a>. */
 public interface TieAction extends AchieveAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/TieAction}">http://schema.org/TieAction}</a>.
+   * Builder interface of <a href="http://schema.org/TieAction">http://schema.org/TieAction</a>.
    */
   public interface Builder extends AchieveAction.Builder {
 

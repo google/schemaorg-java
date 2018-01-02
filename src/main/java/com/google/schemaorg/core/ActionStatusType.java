@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/ActionStatusType}">http://schema.org/ActionStatusType}</a>.
+ * href="http://schema.org/ActionStatusType">http://schema.org/ActionStatusType</a>.
  */
 public interface ActionStatusType extends Enumeration {}

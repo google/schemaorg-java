@@ -27,13 +27,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/ParentAudience}">http://schema.org/ParentAudience}</a>.
+ * Interface of <a href="http://schema.org/ParentAudience">http://schema.org/ParentAudience</a>.
  */
 public interface ParentAudience extends PeopleAudience {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ParentAudience}">http://schema.org/ParentAudience}</a>.
+   * href="http://schema.org/ParentAudience">http://schema.org/ParentAudience</a>.
    */
   public interface Builder extends PeopleAudience.Builder {
 

@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/OnDemandEvent}">http://schema.org/OnDemandEvent}</a>. */
+/** Interface of <a href="http://schema.org/OnDemandEvent">http://schema.org/OnDemandEvent</a>. */
 public interface OnDemandEvent extends PublicationEvent {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/OnDemandEvent}">http://schema.org/OnDemandEvent}</a>.
+   * href="http://schema.org/OnDemandEvent">http://schema.org/OnDemandEvent</a>.
    */
   public interface Builder extends PublicationEvent.Builder {
 

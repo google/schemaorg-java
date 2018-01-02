@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/EmploymentAgency}">http://schema.org/EmploymentAgency}</a>.
+ * href="http://schema.org/EmploymentAgency">http://schema.org/EmploymentAgency</a>.
  */
 public interface EmploymentAgency extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/EmploymentAgency}">http://schema.org/EmploymentAgency}</a>.
+   * href="http://schema.org/EmploymentAgency">http://schema.org/EmploymentAgency</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

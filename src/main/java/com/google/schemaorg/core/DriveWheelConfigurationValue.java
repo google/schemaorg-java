@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/DriveWheelConfigurationValue}">http://schema.org/DriveWheelConfigurationValue}</a>.
+ * href="http://schema.org/DriveWheelConfigurationValue">http://schema.org/DriveWheelConfigurationValue</a>.
  */
 public interface DriveWheelConfigurationValue extends QualitativeValue {}

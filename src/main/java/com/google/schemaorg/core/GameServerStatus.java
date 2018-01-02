@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/GameServerStatus}">http://schema.org/GameServerStatus}</a>.
+ * href="http://schema.org/GameServerStatus">http://schema.org/GameServerStatus</a>.
  */
 public interface GameServerStatus extends Enumeration {}

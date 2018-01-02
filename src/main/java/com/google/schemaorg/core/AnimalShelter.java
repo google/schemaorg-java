@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/AnimalShelter}">http://schema.org/AnimalShelter}</a>. */
+/** Interface of <a href="http://schema.org/AnimalShelter">http://schema.org/AnimalShelter</a>. */
 public interface AnimalShelter extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AnimalShelter}">http://schema.org/AnimalShelter}</a>.
+   * href="http://schema.org/AnimalShelter">http://schema.org/AnimalShelter</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

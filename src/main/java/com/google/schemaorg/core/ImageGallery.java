@@ -27,12 +27,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ImageGallery}">http://schema.org/ImageGallery}</a>. */
+/** Interface of <a href="http://schema.org/ImageGallery">http://schema.org/ImageGallery</a>. */
 public interface ImageGallery extends CollectionPage {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ImageGallery}">http://schema.org/ImageGallery}</a>.
+   * href="http://schema.org/ImageGallery">http://schema.org/ImageGallery</a>.
    */
   public interface Builder extends CollectionPage.Builder {
 

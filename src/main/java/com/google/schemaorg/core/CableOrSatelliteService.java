@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/CableOrSatelliteService}">http://schema.org/CableOrSatelliteService}</a>.
+ * href="http://schema.org/CableOrSatelliteService">http://schema.org/CableOrSatelliteService</a>.
  */
 public interface CableOrSatelliteService extends Service {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/CableOrSatelliteService}">http://schema.org/CableOrSatelliteService}</a>.
+   * href="http://schema.org/CableOrSatelliteService">http://schema.org/CableOrSatelliteService</a>.
    */
   public interface Builder extends Service.Builder {
 

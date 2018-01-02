@@ -23,12 +23,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/RadioChannel}">http://schema.org/RadioChannel}</a>. */
+/** Interface of <a href="http://schema.org/RadioChannel">http://schema.org/RadioChannel</a>. */
 public interface RadioChannel extends BroadcastChannel {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RadioChannel}">http://schema.org/RadioChannel}</a>.
+   * href="http://schema.org/RadioChannel">http://schema.org/RadioChannel</a>.
    */
   public interface Builder extends BroadcastChannel.Builder {
 

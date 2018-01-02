@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/AutoPartsStore}">http://schema.org/AutoPartsStore}</a>.
+ * Interface of <a href="http://schema.org/AutoPartsStore">http://schema.org/AutoPartsStore</a>.
  */
 public interface AutoPartsStore extends AutomotiveBusiness, Store {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AutoPartsStore}">http://schema.org/AutoPartsStore}</a>.
+   * href="http://schema.org/AutoPartsStore">http://schema.org/AutoPartsStore</a>.
    */
   public interface Builder extends AutomotiveBusiness.Builder, Store.Builder {
 

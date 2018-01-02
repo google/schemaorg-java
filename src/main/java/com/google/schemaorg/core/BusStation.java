@@ -23,11 +23,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BusStation}">http://schema.org/BusStation}</a>. */
+/** Interface of <a href="http://schema.org/BusStation">http://schema.org/BusStation</a>. */
 public interface BusStation extends CivicStructure {
 
   /**
-   * Builder interface of <a href="http://schema.org/BusStation}">http://schema.org/BusStation}</a>.
+   * Builder interface of <a href="http://schema.org/BusStation">http://schema.org/BusStation</a>.
    */
   public interface Builder extends CivicStructure.Builder {
 

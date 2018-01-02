@@ -21,7 +21,7 @@ import com.google.schemaorg.SchemaOrgType;
 
 /**
  * Interface of <a
- * href="http://schema.org/QualitativeValue}">http://schema.org/QualitativeValue}</a>.
+ * href="http://schema.org/QualitativeValue">http://schema.org/QualitativeValue</a>.
  */
 public interface QualitativeValue extends Enumeration {
 

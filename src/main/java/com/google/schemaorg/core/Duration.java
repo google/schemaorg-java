@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Duration}">http://schema.org/Duration}</a>. */
+/** Interface of <a href="http://schema.org/Duration">http://schema.org/Duration</a>. */
 public interface Duration extends Quantity {
 
-  /** Builder interface of <a href="http://schema.org/Duration}">http://schema.org/Duration}</a>. */
+  /** Builder interface of <a href="http://schema.org/Duration">http://schema.org/Duration</a>. */
   public interface Builder extends Quantity.Builder {
 
     @Override

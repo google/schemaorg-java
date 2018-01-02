@@ -26,13 +26,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/ChildrensEvent}">http://schema.org/ChildrensEvent}</a>.
+ * Interface of <a href="http://schema.org/ChildrensEvent">http://schema.org/ChildrensEvent</a>.
  */
 public interface ChildrensEvent extends Event {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ChildrensEvent}">http://schema.org/ChildrensEvent}</a>.
+   * href="http://schema.org/ChildrensEvent">http://schema.org/ChildrensEvent</a>.
    */
   public interface Builder extends Event.Builder {
 

@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Museum}">http://schema.org/Museum}</a>. */
+/** Interface of <a href="http://schema.org/Museum">http://schema.org/Museum</a>. */
 public interface Museum extends CivicStructure {
 
-  /** Builder interface of <a href="http://schema.org/Museum}">http://schema.org/Museum}</a>. */
+  /** Builder interface of <a href="http://schema.org/Museum">http://schema.org/Museum</a>. */
   public interface Builder extends CivicStructure.Builder {
 
     @Override

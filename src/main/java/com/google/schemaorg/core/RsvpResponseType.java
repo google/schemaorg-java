@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/RsvpResponseType}">http://schema.org/RsvpResponseType}</a>.
+ * href="http://schema.org/RsvpResponseType">http://schema.org/RsvpResponseType</a>.
  */
 public interface RsvpResponseType extends Enumeration {}

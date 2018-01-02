@@ -28,13 +28,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/RentalCarReservation}">http://schema.org/RentalCarReservation}</a>.
+ * href="http://schema.org/RentalCarReservation">http://schema.org/RentalCarReservation</a>.
  */
 public interface RentalCarReservation extends Reservation {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RentalCarReservation}">http://schema.org/RentalCarReservation}</a>.
+   * href="http://schema.org/RentalCarReservation">http://schema.org/RentalCarReservation</a>.
    */
   public interface Builder extends Reservation.Builder {
 

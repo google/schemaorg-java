@@ -27,10 +27,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Table}">http://schema.org/Table}</a>. */
+/** Interface of <a href="http://schema.org/Table">http://schema.org/Table</a>. */
 public interface Table extends WebPageElement {
 
-  /** Builder interface of <a href="http://schema.org/Table}">http://schema.org/Table}</a>. */
+  /** Builder interface of <a href="http://schema.org/Table">http://schema.org/Table</a>. */
   public interface Builder extends WebPageElement.Builder {
 
     @Override

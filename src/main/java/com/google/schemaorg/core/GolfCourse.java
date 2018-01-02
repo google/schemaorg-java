@@ -24,11 +24,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/GolfCourse}">http://schema.org/GolfCourse}</a>. */
+/** Interface of <a href="http://schema.org/GolfCourse">http://schema.org/GolfCourse</a>. */
 public interface GolfCourse extends SportsActivityLocation {
 
   /**
-   * Builder interface of <a href="http://schema.org/GolfCourse}">http://schema.org/GolfCourse}</a>.
+   * Builder interface of <a href="http://schema.org/GolfCourse">http://schema.org/GolfCourse</a>.
    */
   public interface Builder extends SportsActivityLocation.Builder {
 

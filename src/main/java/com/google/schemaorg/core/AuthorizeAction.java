@@ -26,13 +26,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/AuthorizeAction}">http://schema.org/AuthorizeAction}</a>.
+ * Interface of <a href="http://schema.org/AuthorizeAction">http://schema.org/AuthorizeAction</a>.
  */
 public interface AuthorizeAction extends AllocateAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AuthorizeAction}">http://schema.org/AuthorizeAction}</a>.
+   * href="http://schema.org/AuthorizeAction">http://schema.org/AuthorizeAction</a>.
    */
   public interface Builder extends AllocateAction.Builder {
 

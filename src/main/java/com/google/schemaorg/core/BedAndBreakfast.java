@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/BedAndBreakfast}">http://schema.org/BedAndBreakfast}</a>.
+ * Interface of <a href="http://schema.org/BedAndBreakfast">http://schema.org/BedAndBreakfast</a>.
  */
 public interface BedAndBreakfast extends LodgingBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BedAndBreakfast}">http://schema.org/BedAndBreakfast}</a>.
+   * href="http://schema.org/BedAndBreakfast">http://schema.org/BedAndBreakfast</a>.
    */
   public interface Builder extends LodgingBusiness.Builder {
 

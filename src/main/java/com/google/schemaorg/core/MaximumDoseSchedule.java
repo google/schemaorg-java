@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MaximumDoseSchedule}">http://schema.org/MaximumDoseSchedule}</a>.
+ * href="http://schema.org/MaximumDoseSchedule">http://schema.org/MaximumDoseSchedule</a>.
  */
 public interface MaximumDoseSchedule extends DoseSchedule {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MaximumDoseSchedule}">http://schema.org/MaximumDoseSchedule}</a>.
+   * href="http://schema.org/MaximumDoseSchedule">http://schema.org/MaximumDoseSchedule</a>.
    */
   public interface Builder extends DoseSchedule.Builder {
 

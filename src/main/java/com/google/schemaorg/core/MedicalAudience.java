@@ -17,7 +17,7 @@
 package com.google.schemaorg.core;
 
 /**
- * Interface of <a href="http://schema.org/MedicalAudience}">http://schema.org/MedicalAudience}</a>.
+ * Interface of <a href="http://schema.org/MedicalAudience">http://schema.org/MedicalAudience</a>.
  */
 public interface MedicalAudience
     extends Audience, Enumeration, MedicalEnumeration, PeopleAudience {}

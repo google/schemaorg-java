@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/OrderStatus}">http://schema.org/OrderStatus}</a>. */
+/** Interface of <a href="http://schema.org/OrderStatus">http://schema.org/OrderStatus</a>. */
 public interface OrderStatus extends Enumeration {}

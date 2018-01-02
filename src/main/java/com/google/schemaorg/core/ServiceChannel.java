@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/ServiceChannel}">http://schema.org/ServiceChannel}</a>.
+ * Interface of <a href="http://schema.org/ServiceChannel">http://schema.org/ServiceChannel</a>.
  */
 public interface ServiceChannel extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ServiceChannel}">http://schema.org/ServiceChannel}</a>.
+   * href="http://schema.org/ServiceChannel">http://schema.org/ServiceChannel</a>.
    */
   public interface Builder extends Intangible.Builder {
 

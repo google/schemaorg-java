@@ -27,11 +27,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Sculpture}">http://schema.org/Sculpture}</a>. */
+/** Interface of <a href="http://schema.org/Sculpture">http://schema.org/Sculpture</a>. */
 public interface Sculpture extends CreativeWork {
 
   /**
-   * Builder interface of <a href="http://schema.org/Sculpture}">http://schema.org/Sculpture}</a>.
+   * Builder interface of <a href="http://schema.org/Sculpture">http://schema.org/Sculpture</a>.
    */
   public interface Builder extends CreativeWork.Builder {
 

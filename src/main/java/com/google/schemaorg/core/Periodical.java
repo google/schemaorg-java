@@ -28,11 +28,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Periodical}">http://schema.org/Periodical}</a>. */
+/** Interface of <a href="http://schema.org/Periodical">http://schema.org/Periodical</a>. */
 public interface Periodical extends CreativeWorkSeries {
 
   /**
-   * Builder interface of <a href="http://schema.org/Periodical}">http://schema.org/Periodical}</a>.
+   * Builder interface of <a href="http://schema.org/Periodical">http://schema.org/Periodical</a>.
    */
   public interface Builder extends CreativeWorkSeries.Builder {
 

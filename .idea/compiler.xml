@@ -12,6 +12,8 @@
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <bytecodeTargetLevel>
+      <module name="github-schemaorg-java_main" target="1.8" />
+      <module name="github-schemaorg-java_test" target="1.8" />
       <module name="schemaorg-java_main" target="1.8" />
       <module name="schemaorg-java_test" target="1.8" />
     </bytecodeTargetLevel>

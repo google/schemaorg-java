@@ -25,10 +25,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/GeoShape}">http://schema.org/GeoShape}</a>. */
+/** Interface of <a href="http://schema.org/GeoShape">http://schema.org/GeoShape</a>. */
 public interface GeoShape extends StructuredValue {
 
-  /** Builder interface of <a href="http://schema.org/GeoShape}">http://schema.org/GeoShape}</a>. */
+  /** Builder interface of <a href="http://schema.org/GeoShape">http://schema.org/GeoShape</a>. */
   public interface Builder extends StructuredValue.Builder {
 
     @Override

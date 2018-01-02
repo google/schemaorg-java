@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/RadiationTherapy}">http://schema.org/RadiationTherapy}</a>.
+ * href="http://schema.org/RadiationTherapy">http://schema.org/RadiationTherapy</a>.
  */
 public interface RadiationTherapy extends MedicalTherapy {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RadiationTherapy}">http://schema.org/RadiationTherapy}</a>.
+   * href="http://schema.org/RadiationTherapy">http://schema.org/RadiationTherapy</a>.
    */
   public interface Builder extends MedicalTherapy.Builder {
 

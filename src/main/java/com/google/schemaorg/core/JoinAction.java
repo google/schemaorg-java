@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/JoinAction}">http://schema.org/JoinAction}</a>. */
+/** Interface of <a href="http://schema.org/JoinAction">http://schema.org/JoinAction</a>. */
 public interface JoinAction extends InteractAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/JoinAction}">http://schema.org/JoinAction}</a>.
+   * Builder interface of <a href="http://schema.org/JoinAction">http://schema.org/JoinAction</a>.
    */
   public interface Builder extends InteractAction.Builder {
 

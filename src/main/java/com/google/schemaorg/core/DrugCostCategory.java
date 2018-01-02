@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/DrugCostCategory}">http://schema.org/DrugCostCategory}</a>.
+ * href="http://schema.org/DrugCostCategory">http://schema.org/DrugCostCategory</a>.
  */
 public interface DrugCostCategory extends Enumeration, MedicalEnumeration {}

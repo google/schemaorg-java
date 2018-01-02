@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalObservationalStudyDesign}">http://schema.org/MedicalObservationalStudyDesign}</a>.
+ * href="http://schema.org/MedicalObservationalStudyDesign">http://schema.org/MedicalObservationalStudyDesign</a>.
  */
 public interface MedicalObservationalStudyDesign extends Enumeration, MedicalEnumeration {}

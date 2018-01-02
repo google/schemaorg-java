@@ -23,11 +23,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Residence}">http://schema.org/Residence}</a>. */
+/** Interface of <a href="http://schema.org/Residence">http://schema.org/Residence</a>. */
 public interface Residence extends Place {
 
   /**
-   * Builder interface of <a href="http://schema.org/Residence}">http://schema.org/Residence}</a>.
+   * Builder interface of <a href="http://schema.org/Residence">http://schema.org/Residence</a>.
    */
   public interface Builder extends Place.Builder {
 

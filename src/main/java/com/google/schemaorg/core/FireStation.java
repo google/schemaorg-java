@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/FireStation}">http://schema.org/FireStation}</a>. */
+/** Interface of <a href="http://schema.org/FireStation">http://schema.org/FireStation</a>. */
 public interface FireStation extends CivicStructure, EmergencyService {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/FireStation}">http://schema.org/FireStation}</a>.
+   * href="http://schema.org/FireStation">http://schema.org/FireStation</a>.
    */
   public interface Builder extends CivicStructure.Builder, EmergencyService.Builder {
 

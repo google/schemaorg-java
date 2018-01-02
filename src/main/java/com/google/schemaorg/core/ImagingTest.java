@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ImagingTest}">http://schema.org/ImagingTest}</a>. */
+/** Interface of <a href="http://schema.org/ImagingTest">http://schema.org/ImagingTest</a>. */
 public interface ImagingTest extends MedicalTest {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ImagingTest}">http://schema.org/ImagingTest}</a>.
+   * href="http://schema.org/ImagingTest">http://schema.org/ImagingTest</a>.
    */
   public interface Builder extends MedicalTest.Builder {
 

@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/PostalAddress}">http://schema.org/PostalAddress}</a>. */
+/** Interface of <a href="http://schema.org/PostalAddress">http://schema.org/PostalAddress</a>. */
 public interface PostalAddress extends ContactPoint {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PostalAddress}">http://schema.org/PostalAddress}</a>.
+   * href="http://schema.org/PostalAddress">http://schema.org/PostalAddress</a>.
    */
   public interface Builder extends ContactPoint.Builder {
 

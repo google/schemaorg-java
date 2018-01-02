@@ -24,13 +24,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/BrainStructure}">http://schema.org/BrainStructure}</a>.
+ * Interface of <a href="http://schema.org/BrainStructure">http://schema.org/BrainStructure</a>.
  */
 public interface BrainStructure extends AnatomicalStructure {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BrainStructure}">http://schema.org/BrainStructure}</a>.
+   * href="http://schema.org/BrainStructure">http://schema.org/BrainStructure</a>.
    */
   public interface Builder extends AnatomicalStructure.Builder {
 

@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/LymphaticVessel}">http://schema.org/LymphaticVessel}</a>.
+ * Interface of <a href="http://schema.org/LymphaticVessel">http://schema.org/LymphaticVessel</a>.
  */
 public interface LymphaticVessel extends Vessel {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/LymphaticVessel}">http://schema.org/LymphaticVessel}</a>.
+   * href="http://schema.org/LymphaticVessel">http://schema.org/LymphaticVessel</a>.
    */
   public interface Builder extends Vessel.Builder {
 
