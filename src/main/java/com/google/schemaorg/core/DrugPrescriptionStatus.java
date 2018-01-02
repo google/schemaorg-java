@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/DrugPrescriptionStatus}">http://schema.org/DrugPrescriptionStatus}</a>.
+ * href="http://schema.org/DrugPrescriptionStatus">http://schema.org/DrugPrescriptionStatus</a>.
  */
 public interface DrugPrescriptionStatus extends Enumeration, MedicalEnumeration {}

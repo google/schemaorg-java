@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Bakery}">http://schema.org/Bakery}</a>. */
+/** Interface of <a href="http://schema.org/Bakery">http://schema.org/Bakery</a>. */
 public interface Bakery extends FoodEstablishment {
 
-  /** Builder interface of <a href="http://schema.org/Bakery}">http://schema.org/Bakery}</a>. */
+  /** Builder interface of <a href="http://schema.org/Bakery">http://schema.org/Bakery</a>. */
   public interface Builder extends FoodEstablishment.Builder {
 
     @Override

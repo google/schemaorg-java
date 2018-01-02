@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DanceEvent}">http://schema.org/DanceEvent}</a>. */
+/** Interface of <a href="http://schema.org/DanceEvent">http://schema.org/DanceEvent</a>. */
 public interface DanceEvent extends Event {
 
   /**
-   * Builder interface of <a href="http://schema.org/DanceEvent}">http://schema.org/DanceEvent}</a>.
+   * Builder interface of <a href="http://schema.org/DanceEvent">http://schema.org/DanceEvent</a>.
    */
   public interface Builder extends Event.Builder {
 

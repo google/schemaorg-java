@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/BreadcrumbList}">http://schema.org/BreadcrumbList}</a>.
+ * Interface of <a href="http://schema.org/BreadcrumbList">http://schema.org/BreadcrumbList</a>.
  */
 public interface BreadcrumbList extends ItemList {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BreadcrumbList}">http://schema.org/BreadcrumbList}</a>.
+   * href="http://schema.org/BreadcrumbList">http://schema.org/BreadcrumbList</a>.
    */
   public interface Builder extends ItemList.Builder {
 

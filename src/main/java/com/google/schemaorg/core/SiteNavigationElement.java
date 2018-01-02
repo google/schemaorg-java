@@ -29,13 +29,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/SiteNavigationElement}">http://schema.org/SiteNavigationElement}</a>.
+ * href="http://schema.org/SiteNavigationElement">http://schema.org/SiteNavigationElement</a>.
  */
 public interface SiteNavigationElement extends WebPageElement {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/SiteNavigationElement}">http://schema.org/SiteNavigationElement}</a>.
+   * href="http://schema.org/SiteNavigationElement">http://schema.org/SiteNavigationElement</a>.
    */
   public interface Builder extends WebPageElement.Builder {
 

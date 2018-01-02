@@ -26,12 +26,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/UserComments}">http://schema.org/UserComments}</a>. */
+/** Interface of <a href="http://schema.org/UserComments">http://schema.org/UserComments</a>. */
 public interface UserComments extends UserInteraction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/UserComments}">http://schema.org/UserComments}</a>.
+   * href="http://schema.org/UserComments">http://schema.org/UserComments</a>.
    */
   public interface Builder extends UserInteraction.Builder {
 

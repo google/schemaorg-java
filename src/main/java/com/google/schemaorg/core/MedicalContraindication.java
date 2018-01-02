@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalContraindication}">http://schema.org/MedicalContraindication}</a>.
+ * href="http://schema.org/MedicalContraindication">http://schema.org/MedicalContraindication</a>.
  */
 public interface MedicalContraindication extends MedicalEntity {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalContraindication}">http://schema.org/MedicalContraindication}</a>.
+   * href="http://schema.org/MedicalContraindication">http://schema.org/MedicalContraindication</a>.
    */
   public interface Builder extends MedicalEntity.Builder {
 

@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/RiverBodyOfWater}">http://schema.org/RiverBodyOfWater}</a>.
+ * href="http://schema.org/RiverBodyOfWater">http://schema.org/RiverBodyOfWater</a>.
  */
 public interface RiverBodyOfWater extends BodyOfWater {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RiverBodyOfWater}">http://schema.org/RiverBodyOfWater}</a>.
+   * href="http://schema.org/RiverBodyOfWater">http://schema.org/RiverBodyOfWater</a>.
    */
   public interface Builder extends BodyOfWater.Builder {
 

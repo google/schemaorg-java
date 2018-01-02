@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Mountain}">http://schema.org/Mountain}</a>. */
+/** Interface of <a href="http://schema.org/Mountain">http://schema.org/Mountain</a>. */
 public interface Mountain extends Landform {
 
-  /** Builder interface of <a href="http://schema.org/Mountain}">http://schema.org/Mountain}</a>. */
+  /** Builder interface of <a href="http://schema.org/Mountain">http://schema.org/Mountain</a>. */
   public interface Builder extends Landform.Builder {
 
     @Override

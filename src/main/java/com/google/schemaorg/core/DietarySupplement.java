@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/DietarySupplement}">http://schema.org/DietarySupplement}</a>.
+ * href="http://schema.org/DietarySupplement">http://schema.org/DietarySupplement</a>.
  */
 public interface DietarySupplement extends MedicalTherapy {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DietarySupplement}">http://schema.org/DietarySupplement}</a>.
+   * href="http://schema.org/DietarySupplement">http://schema.org/DietarySupplement</a>.
    */
   public interface Builder extends MedicalTherapy.Builder {
 

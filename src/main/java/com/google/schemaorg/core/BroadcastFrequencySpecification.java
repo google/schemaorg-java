@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/BroadcastFrequencySpecification}">http://schema.org/BroadcastFrequencySpecification}</a>.
+ * href="http://schema.org/BroadcastFrequencySpecification">http://schema.org/BroadcastFrequencySpecification</a>.
  */
 public interface BroadcastFrequencySpecification extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BroadcastFrequencySpecification}">http://schema.org/BroadcastFrequencySpecification}</a>.
+   * href="http://schema.org/BroadcastFrequencySpecification">http://schema.org/BroadcastFrequencySpecification</a>.
    */
   public interface Builder extends Intangible.Builder {
 

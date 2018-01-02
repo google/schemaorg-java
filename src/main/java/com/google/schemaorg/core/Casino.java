@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Casino}">http://schema.org/Casino}</a>. */
+/** Interface of <a href="http://schema.org/Casino">http://schema.org/Casino</a>. */
 public interface Casino extends EntertainmentBusiness {
 
-  /** Builder interface of <a href="http://schema.org/Casino}">http://schema.org/Casino}</a>. */
+  /** Builder interface of <a href="http://schema.org/Casino">http://schema.org/Casino</a>. */
   public interface Builder extends EntertainmentBusiness.Builder {
 
     @Override

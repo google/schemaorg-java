@@ -26,12 +26,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DonateAction}">http://schema.org/DonateAction}</a>. */
+/** Interface of <a href="http://schema.org/DonateAction">http://schema.org/DonateAction</a>. */
 public interface DonateAction extends TradeAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DonateAction}">http://schema.org/DonateAction}</a>.
+   * href="http://schema.org/DonateAction">http://schema.org/DonateAction</a>.
    */
   public interface Builder extends TradeAction.Builder {
 

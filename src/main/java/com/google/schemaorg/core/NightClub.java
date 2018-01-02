@@ -24,11 +24,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/NightClub}">http://schema.org/NightClub}</a>. */
+/** Interface of <a href="http://schema.org/NightClub">http://schema.org/NightClub</a>. */
 public interface NightClub extends EntertainmentBusiness {
 
   /**
-   * Builder interface of <a href="http://schema.org/NightClub}">http://schema.org/NightClub}</a>.
+   * Builder interface of <a href="http://schema.org/NightClub">http://schema.org/NightClub</a>.
    */
   public interface Builder extends EntertainmentBusiness.Builder {
 

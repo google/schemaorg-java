@@ -24,13 +24,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/CatholicChurch}">http://schema.org/CatholicChurch}</a>.
+ * Interface of <a href="http://schema.org/CatholicChurch">http://schema.org/CatholicChurch</a>.
  */
 public interface CatholicChurch extends PlaceOfWorship {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/CatholicChurch}">http://schema.org/CatholicChurch}</a>.
+   * href="http://schema.org/CatholicChurch">http://schema.org/CatholicChurch</a>.
    */
   public interface Builder extends PlaceOfWorship.Builder {
 

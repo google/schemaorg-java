@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalStudyStatus}">http://schema.org/MedicalStudyStatus}</a>.
+ * href="http://schema.org/MedicalStudyStatus">http://schema.org/MedicalStudyStatus</a>.
  */
 public interface MedicalStudyStatus extends Enumeration, MedicalEnumeration {}

@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalOrganization}">http://schema.org/MedicalOrganization}</a>.
+ * href="http://schema.org/MedicalOrganization">http://schema.org/MedicalOrganization</a>.
  */
 public interface MedicalOrganization extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalOrganization}">http://schema.org/MedicalOrganization}</a>.
+   * href="http://schema.org/MedicalOrganization">http://schema.org/MedicalOrganization</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

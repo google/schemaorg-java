@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/CarUsageType}">http://schema.org/CarUsageType}</a>. */
+/** Interface of <a href="http://schema.org/CarUsageType">http://schema.org/CarUsageType</a>. */
 public interface CarUsageType extends QualitativeValue {}

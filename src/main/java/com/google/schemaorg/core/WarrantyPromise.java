@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/WarrantyPromise}">http://schema.org/WarrantyPromise}</a>.
+ * Interface of <a href="http://schema.org/WarrantyPromise">http://schema.org/WarrantyPromise</a>.
  */
 public interface WarrantyPromise extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/WarrantyPromise}">http://schema.org/WarrantyPromise}</a>.
+   * href="http://schema.org/WarrantyPromise">http://schema.org/WarrantyPromise</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/PaintAction}">http://schema.org/PaintAction}</a>. */
+/** Interface of <a href="http://schema.org/PaintAction">http://schema.org/PaintAction</a>. */
 public interface PaintAction extends CreateAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PaintAction}">http://schema.org/PaintAction}</a>.
+   * href="http://schema.org/PaintAction">http://schema.org/PaintAction</a>.
    */
   public interface Builder extends CreateAction.Builder {
 

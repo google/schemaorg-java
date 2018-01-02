@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/BankOrCreditUnion}">http://schema.org/BankOrCreditUnion}</a>.
+ * href="http://schema.org/BankOrCreditUnion">http://schema.org/BankOrCreditUnion</a>.
  */
 public interface BankOrCreditUnion extends FinancialService {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BankOrCreditUnion}">http://schema.org/BankOrCreditUnion}</a>.
+   * href="http://schema.org/BankOrCreditUnion">http://schema.org/BankOrCreditUnion</a>.
    */
   public interface Builder extends FinancialService.Builder {
 

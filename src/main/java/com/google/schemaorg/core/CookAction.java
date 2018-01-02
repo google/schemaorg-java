@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/CookAction}">http://schema.org/CookAction}</a>. */
+/** Interface of <a href="http://schema.org/CookAction">http://schema.org/CookAction</a>. */
 public interface CookAction extends CreateAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/CookAction}">http://schema.org/CookAction}</a>.
+   * Builder interface of <a href="http://schema.org/CookAction">http://schema.org/CookAction</a>.
    */
   public interface Builder extends CreateAction.Builder {
 

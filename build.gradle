@@ -1,11 +1,10 @@
 apply plugin: 'java'
-apply plugin: 'java-library-distribution'
+apply plugin: 'maven-publish'
+apply plugin: 'signing'
 
 repositories {
     mavenCentral()
 }
-
-project.version '1.0.0'
 
 dependencies {
     compile 'com.google.code.findbugs:jsr305:3.0.1'
@@ -15,43 +14,130 @@ dependencies {
     testCompile 'com.google.truth:truth:0.28'
 }
 
-jar {
-    baseName 'schema-org-client'
-}
-
-task fatJar(type: Jar) {
-    baseName = 'schema-org-client-all'
-    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
-    with jar
-}
-
-task sourcesJar(type: Jar, dependsOn: classes) {
-    baseName 'schema-org-client'
-    classifier 'sources'
-    from sourceSets.main.allSource
-}
-
-uploadArchives {
-    repositories {
-       flatDir {
-           dirs 'export'
-       }
-    }
-}
-
 test {
     // show standard out and standard error of the test JVM(s) on the console
     testLogging.showStandardStreams = true
 }
 
-distributions {
-    main {
-        baseName = 'schema-org-client'
-        contents {
-            from { sourcesJar }
-            from { 'README.md' }
-            from { 'LICENSE' }
+task sourceJar(type: Jar) {
+    classifier "sources"
+    from sourceSets.main.allJava
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier "javadoc"
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives jar
+    archives sourceJar
+    archives javadocJar
+}
+
+signing {
+    sign configurations.archives
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            customizePom(pom, rootProject)
+            groupId 'com.github.mautini'
+            artifactId 'schemaorg-java'
+            version '1.0.0'
+
+            from components.java
+
+            // sign the pom
+            pom.withXml {
+                def pomFile = file("${project.buildDir}/generated-pom.xml")
+                writeTo(pomFile)
+                def pomAscFile = signing.sign(pomFile).signatureFiles[0]
+                artifact(pomAscFile) {
+                    classifier = null
+                    extension = 'pom.asc'
+                }
+            }
+
+            // sign the artifacts
+            project.tasks.signArchives.signatureFiles.each {
+                artifact(it) {
+                    def matcher = it.file =~ /-(sources|javadoc)\.jar\.asc$/
+                    if (matcher.find()) {
+                        classifier = matcher.group(1)
+                    } else {
+                        classifier = null
+                    }
+                    extension = 'jar.asc'
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            url "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+            credentials {
+                username sonatypeUsername
+                password sonatypePassword
+            }
         }
     }
 }
 
+def customizePom(pom, gradleProject) {
+    pom.withXml {
+        def root = asNode()
+
+        // eliminate test-scoped dependencies (no need in maven central POMs)
+        root.dependencies.removeAll { dep ->
+            dep.scope == "test"
+        }
+
+        // add all items necessary for maven central publication
+        root.children().last() + {
+            resolveStrategy = Closure.DELEGATE_FIRST
+
+            description gradleProject.description
+            name 'Schema.org Java'
+            url 'https://github.com/mautini/schemaorg-java'
+            organization {
+                name 'com.github.mautini'
+                url 'https://github.com/mautini'
+            }
+            issueManagement {
+                system 'GitHub'
+                url 'https://github.com/mautini/schemaorg-java/issues'
+            }
+            licenses {
+                license {
+                    name 'Apache License 2.0'
+                    url 'https://github.com/mautini/schemaorg-java/blob/master/LICENSE'
+                    distribution 'repo'
+                }
+            }
+            scm {
+                url 'https://github.com/mautini/schemaorg-java'
+                connection 'scm:git:git://github.com/mautini/schemaorg-java.git'
+                developerConnection 'scm:git:ssh://git@github.com:mautini/schemaorg-java.git'
+            }
+            developers {
+                developer {
+                    name 'Mautini'
+                }
+            }
+        }
+    }
+}
+
+model {
+    tasks.generatePomFileForMavenJavaPublication {
+        destination = file("$buildDir/generated-pom.xml")
+    }
+    tasks.publishMavenJavaPublicationToMavenLocal {
+        dependsOn(project.tasks.signArchives)
+    }
+    tasks.publishMavenJavaPublicationToMavenRepository {
+        dependsOn(project.tasks.signArchives)
+    }
+}

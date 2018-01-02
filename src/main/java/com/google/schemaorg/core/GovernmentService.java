@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/GovernmentService}">http://schema.org/GovernmentService}</a>.
+ * href="http://schema.org/GovernmentService">http://schema.org/GovernmentService</a>.
  */
 public interface GovernmentService extends Service {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/GovernmentService}">http://schema.org/GovernmentService}</a>.
+   * href="http://schema.org/GovernmentService">http://schema.org/GovernmentService</a>.
    */
   public interface Builder extends Service.Builder {
 

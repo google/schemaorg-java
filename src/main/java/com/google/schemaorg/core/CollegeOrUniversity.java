@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/CollegeOrUniversity}">http://schema.org/CollegeOrUniversity}</a>.
+ * href="http://schema.org/CollegeOrUniversity">http://schema.org/CollegeOrUniversity</a>.
  */
 public interface CollegeOrUniversity extends EducationalOrganization {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/CollegeOrUniversity}">http://schema.org/CollegeOrUniversity}</a>.
+   * href="http://schema.org/CollegeOrUniversity">http://schema.org/CollegeOrUniversity</a>.
    */
   public interface Builder extends EducationalOrganization.Builder {
 

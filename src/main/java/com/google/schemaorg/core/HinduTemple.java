@@ -23,12 +23,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/HinduTemple}">http://schema.org/HinduTemple}</a>. */
+/** Interface of <a href="http://schema.org/HinduTemple">http://schema.org/HinduTemple</a>. */
 public interface HinduTemple extends PlaceOfWorship {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/HinduTemple}">http://schema.org/HinduTemple}</a>.
+   * href="http://schema.org/HinduTemple">http://schema.org/HinduTemple</a>.
    */
   public interface Builder extends PlaceOfWorship.Builder {
 

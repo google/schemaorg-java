@@ -17,6 +17,6 @@
 package com.google.schemaorg.core;
 
 /**
- * Interface of <a href="http://schema.org/LockerDelivery}">http://schema.org/LockerDelivery}</a>.
+ * Interface of <a href="http://schema.org/LockerDelivery">http://schema.org/LockerDelivery</a>.
  */
 public interface LockerDelivery extends DeliveryMethod {}

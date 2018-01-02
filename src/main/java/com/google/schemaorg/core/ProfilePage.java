@@ -27,12 +27,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ProfilePage}">http://schema.org/ProfilePage}</a>. */
+/** Interface of <a href="http://schema.org/ProfilePage">http://schema.org/ProfilePage</a>. */
 public interface ProfilePage extends WebPage {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ProfilePage}">http://schema.org/ProfilePage}</a>.
+   * href="http://schema.org/ProfilePage">http://schema.org/ProfilePage</a>.
    */
   public interface Builder extends WebPage.Builder {
 

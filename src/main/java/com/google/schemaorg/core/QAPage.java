@@ -27,10 +27,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/QAPage}">http://schema.org/QAPage}</a>. */
+/** Interface of <a href="http://schema.org/QAPage">http://schema.org/QAPage</a>. */
 public interface QAPage extends WebPage {
 
-  /** Builder interface of <a href="http://schema.org/QAPage}">http://schema.org/QAPage}</a>. */
+  /** Builder interface of <a href="http://schema.org/QAPage">http://schema.org/QAPage</a>. */
   public interface Builder extends WebPage.Builder {
 
     @Override

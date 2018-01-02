@@ -23,10 +23,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Ligament}">http://schema.org/Ligament}</a>. */
+/** Interface of <a href="http://schema.org/Ligament">http://schema.org/Ligament</a>. */
 public interface Ligament extends AnatomicalStructure {
 
-  /** Builder interface of <a href="http://schema.org/Ligament}">http://schema.org/Ligament}</a>. */
+  /** Builder interface of <a href="http://schema.org/Ligament">http://schema.org/Ligament</a>. */
   public interface Builder extends AnatomicalStructure.Builder {
 
     @Override

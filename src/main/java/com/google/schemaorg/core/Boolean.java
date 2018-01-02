@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/Boolean}">http://schema.org/Boolean}</a>. */
+/** Interface of <a href="http://schema.org/Boolean">http://schema.org/Boolean</a>. */
 public interface Boolean extends Enumeration {}

@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/LifestyleModification}">http://schema.org/LifestyleModification}</a>.
+ * href="http://schema.org/LifestyleModification">http://schema.org/LifestyleModification</a>.
  */
 public interface LifestyleModification extends MedicalTherapy {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/LifestyleModification}">http://schema.org/LifestyleModification}</a>.
+   * href="http://schema.org/LifestyleModification">http://schema.org/LifestyleModification</a>.
    */
   public interface Builder extends MedicalTherapy.Builder {
 

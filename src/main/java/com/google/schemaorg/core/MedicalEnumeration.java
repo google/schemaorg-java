@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalEnumeration}">http://schema.org/MedicalEnumeration}</a>.
+ * href="http://schema.org/MedicalEnumeration">http://schema.org/MedicalEnumeration</a>.
  */
 public interface MedicalEnumeration extends Enumeration, MedicalIntangible {}

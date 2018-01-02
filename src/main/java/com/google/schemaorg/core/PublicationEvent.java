@@ -28,13 +28,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/PublicationEvent}">http://schema.org/PublicationEvent}</a>.
+ * href="http://schema.org/PublicationEvent">http://schema.org/PublicationEvent</a>.
  */
 public interface PublicationEvent extends Event {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PublicationEvent}">http://schema.org/PublicationEvent}</a>.
+   * href="http://schema.org/PublicationEvent">http://schema.org/PublicationEvent</a>.
    */
   public interface Builder extends Event.Builder {
 

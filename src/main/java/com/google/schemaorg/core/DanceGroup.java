@@ -24,11 +24,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DanceGroup}">http://schema.org/DanceGroup}</a>. */
+/** Interface of <a href="http://schema.org/DanceGroup">http://schema.org/DanceGroup</a>. */
 public interface DanceGroup extends PerformingGroup {
 
   /**
-   * Builder interface of <a href="http://schema.org/DanceGroup}">http://schema.org/DanceGroup}</a>.
+   * Builder interface of <a href="http://schema.org/DanceGroup">http://schema.org/DanceGroup</a>.
    */
   public interface Builder extends PerformingGroup.Builder {
 

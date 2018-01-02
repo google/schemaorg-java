@@ -26,12 +26,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DataFeedItem}">http://schema.org/DataFeedItem}</a>. */
+/** Interface of <a href="http://schema.org/DataFeedItem">http://schema.org/DataFeedItem</a>. */
 public interface DataFeedItem extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DataFeedItem}">http://schema.org/DataFeedItem}</a>.
+   * href="http://schema.org/DataFeedItem">http://schema.org/DataFeedItem</a>.
    */
   public interface Builder extends Intangible.Builder {
 

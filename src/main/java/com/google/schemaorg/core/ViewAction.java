@@ -24,11 +24,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ViewAction}">http://schema.org/ViewAction}</a>. */
+/** Interface of <a href="http://schema.org/ViewAction">http://schema.org/ViewAction</a>. */
 public interface ViewAction extends ConsumeAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/ViewAction}">http://schema.org/ViewAction}</a>.
+   * Builder interface of <a href="http://schema.org/ViewAction">http://schema.org/ViewAction</a>.
    */
   public interface Builder extends ConsumeAction.Builder {
 

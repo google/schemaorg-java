@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/TreatmentIndication}">http://schema.org/TreatmentIndication}</a>.
+ * href="http://schema.org/TreatmentIndication">http://schema.org/TreatmentIndication</a>.
  */
 public interface TreatmentIndication extends MedicalIndication {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/TreatmentIndication}">http://schema.org/TreatmentIndication}</a>.
+   * href="http://schema.org/TreatmentIndication">http://schema.org/TreatmentIndication</a>.
    */
   public interface Builder extends MedicalIndication.Builder {
 

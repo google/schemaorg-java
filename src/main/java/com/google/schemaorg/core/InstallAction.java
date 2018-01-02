@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/InstallAction}">http://schema.org/InstallAction}</a>. */
+/** Interface of <a href="http://schema.org/InstallAction">http://schema.org/InstallAction</a>. */
 public interface InstallAction extends ConsumeAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/InstallAction}">http://schema.org/InstallAction}</a>.
+   * href="http://schema.org/InstallAction">http://schema.org/InstallAction</a>.
    */
   public interface Builder extends ConsumeAction.Builder {
 

@@ -27,12 +27,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/EmailMessage}">http://schema.org/EmailMessage}</a>. */
+/** Interface of <a href="http://schema.org/EmailMessage">http://schema.org/EmailMessage</a>. */
 public interface EmailMessage extends CreativeWork {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/EmailMessage}">http://schema.org/EmailMessage}</a>.
+   * href="http://schema.org/EmailMessage">http://schema.org/EmailMessage</a>.
    */
   public interface Builder extends CreativeWork.Builder {
 

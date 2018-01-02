@@ -27,11 +27,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BookSeries}">http://schema.org/BookSeries}</a>. */
+/** Interface of <a href="http://schema.org/BookSeries">http://schema.org/BookSeries</a>. */
 public interface BookSeries extends CreativeWorkSeries {
 
   /**
-   * Builder interface of <a href="http://schema.org/BookSeries}">http://schema.org/BookSeries}</a>.
+   * Builder interface of <a href="http://schema.org/BookSeries">http://schema.org/BookSeries</a>.
    */
   public interface Builder extends CreativeWorkSeries.Builder {
 

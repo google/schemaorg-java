@@ -27,11 +27,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/MovieClip}">http://schema.org/MovieClip}</a>. */
+/** Interface of <a href="http://schema.org/MovieClip">http://schema.org/MovieClip</a>. */
 public interface MovieClip extends Clip {
 
   /**
-   * Builder interface of <a href="http://schema.org/MovieClip}">http://schema.org/MovieClip}</a>.
+   * Builder interface of <a href="http://schema.org/MovieClip">http://schema.org/MovieClip</a>.
    */
   public interface Builder extends Clip.Builder {
 

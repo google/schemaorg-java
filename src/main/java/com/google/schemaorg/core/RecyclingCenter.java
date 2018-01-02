@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/RecyclingCenter}">http://schema.org/RecyclingCenter}</a>.
+ * Interface of <a href="http://schema.org/RecyclingCenter">http://schema.org/RecyclingCenter</a>.
  */
 public interface RecyclingCenter extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RecyclingCenter}">http://schema.org/RecyclingCenter}</a>.
+   * href="http://schema.org/RecyclingCenter">http://schema.org/RecyclingCenter</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/LoseAction}">http://schema.org/LoseAction}</a>. */
+/** Interface of <a href="http://schema.org/LoseAction">http://schema.org/LoseAction</a>. */
 public interface LoseAction extends AchieveAction {
 
   /**
-   * Builder interface of <a href="http://schema.org/LoseAction}">http://schema.org/LoseAction}</a>.
+   * Builder interface of <a href="http://schema.org/LoseAction">http://schema.org/LoseAction</a>.
    */
   public interface Builder extends AchieveAction.Builder {
 

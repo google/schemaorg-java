@@ -24,13 +24,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/MedicalSymptom}">http://schema.org/MedicalSymptom}</a>.
+ * Interface of <a href="http://schema.org/MedicalSymptom">http://schema.org/MedicalSymptom</a>.
  */
 public interface MedicalSymptom extends MedicalSignOrSymptom {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalSymptom}">http://schema.org/MedicalSymptom}</a>.
+   * href="http://schema.org/MedicalSymptom">http://schema.org/MedicalSymptom</a>.
    */
   public interface Builder extends MedicalSignOrSymptom.Builder {
 

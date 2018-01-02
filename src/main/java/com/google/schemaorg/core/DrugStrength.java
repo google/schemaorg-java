@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DrugStrength}">http://schema.org/DrugStrength}</a>. */
+/** Interface of <a href="http://schema.org/DrugStrength">http://schema.org/DrugStrength</a>. */
 public interface DrugStrength extends MedicalIntangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DrugStrength}">http://schema.org/DrugStrength}</a>.
+   * href="http://schema.org/DrugStrength">http://schema.org/DrugStrength</a>.
    */
   public interface Builder extends MedicalIntangible.Builder {
 

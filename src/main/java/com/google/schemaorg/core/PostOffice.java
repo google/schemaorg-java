@@ -24,11 +24,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/PostOffice}">http://schema.org/PostOffice}</a>. */
+/** Interface of <a href="http://schema.org/PostOffice">http://schema.org/PostOffice</a>. */
 public interface PostOffice extends GovernmentOffice {
 
   /**
-   * Builder interface of <a href="http://schema.org/PostOffice}">http://schema.org/PostOffice}</a>.
+   * Builder interface of <a href="http://schema.org/PostOffice">http://schema.org/PostOffice</a>.
    */
   public interface Builder extends GovernmentOffice.Builder {
 

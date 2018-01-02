@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalRiskCalculator}">http://schema.org/MedicalRiskCalculator}</a>.
+ * href="http://schema.org/MedicalRiskCalculator">http://schema.org/MedicalRiskCalculator</a>.
  */
 public interface MedicalRiskCalculator extends MedicalRiskEstimator {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalRiskCalculator}">http://schema.org/MedicalRiskCalculator}</a>.
+   * href="http://schema.org/MedicalRiskCalculator">http://schema.org/MedicalRiskCalculator</a>.
    */
   public interface Builder extends MedicalRiskEstimator.Builder {
 

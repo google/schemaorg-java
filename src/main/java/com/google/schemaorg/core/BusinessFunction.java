@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/BusinessFunction}">http://schema.org/BusinessFunction}</a>.
+ * href="http://schema.org/BusinessFunction">http://schema.org/BusinessFunction</a>.
  */
 public interface BusinessFunction extends Enumeration {}

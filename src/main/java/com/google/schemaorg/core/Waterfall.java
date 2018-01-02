@@ -23,11 +23,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Waterfall}">http://schema.org/Waterfall}</a>. */
+/** Interface of <a href="http://schema.org/Waterfall">http://schema.org/Waterfall</a>. */
 public interface Waterfall extends BodyOfWater {
 
   /**
-   * Builder interface of <a href="http://schema.org/Waterfall}">http://schema.org/Waterfall}</a>.
+   * Builder interface of <a href="http://schema.org/Waterfall">http://schema.org/Waterfall</a>.
    */
   public interface Builder extends BodyOfWater.Builder {
 

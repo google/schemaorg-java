@@ -27,12 +27,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DataDownload}">http://schema.org/DataDownload}</a>. */
+/** Interface of <a href="http://schema.org/DataDownload">http://schema.org/DataDownload</a>. */
 public interface DataDownload extends MediaObject {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DataDownload}">http://schema.org/DataDownload}</a>.
+   * href="http://schema.org/DataDownload">http://schema.org/DataDownload</a>.
    */
   public interface Builder extends MediaObject.Builder {
 

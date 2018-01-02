@@ -27,11 +27,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/WPAdBlock}">http://schema.org/WPAdBlock}</a>. */
+/** Interface of <a href="http://schema.org/WPAdBlock">http://schema.org/WPAdBlock</a>. */
 public interface WPAdBlock extends WebPageElement {
 
   /**
-   * Builder interface of <a href="http://schema.org/WPAdBlock}">http://schema.org/WPAdBlock}</a>.
+   * Builder interface of <a href="http://schema.org/WPAdBlock">http://schema.org/WPAdBlock</a>.
    */
   public interface Builder extends WebPageElement.Builder {
 

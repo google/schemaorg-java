@@ -25,11 +25,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/UserTweets}">http://schema.org/UserTweets}</a>. */
+/** Interface of <a href="http://schema.org/UserTweets">http://schema.org/UserTweets</a>. */
 public interface UserTweets extends UserInteraction {
 
   /**
-   * Builder interface of <a href="http://schema.org/UserTweets}">http://schema.org/UserTweets}</a>.
+   * Builder interface of <a href="http://schema.org/UserTweets">http://schema.org/UserTweets</a>.
    */
   public interface Builder extends UserInteraction.Builder {
 

@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/PlaceOrganizationCommon}">http://schema.org/PlaceOrganizationCommon}</a>.
+ * href="http://schema.org/PlaceOrganizationCommon">http://schema.org/PlaceOrganizationCommon</a>.
  */
 public interface PlaceOrganizationCommon extends Thing {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PlaceOrganizationCommon}">http://schema.org/PlaceOrganizationCommon}</a>.
+   * href="http://schema.org/PlaceOrganizationCommon">http://schema.org/PlaceOrganizationCommon</a>.
    */
   public interface Builder extends Thing.Builder {
 

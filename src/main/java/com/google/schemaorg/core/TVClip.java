@@ -28,10 +28,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/TVClip}">http://schema.org/TVClip}</a>. */
+/** Interface of <a href="http://schema.org/TVClip">http://schema.org/TVClip</a>. */
 public interface TVClip extends Clip {
 
-  /** Builder interface of <a href="http://schema.org/TVClip}">http://schema.org/TVClip}</a>. */
+  /** Builder interface of <a href="http://schema.org/TVClip">http://schema.org/TVClip</a>. */
   public interface Builder extends Clip.Builder {
 
     @Override

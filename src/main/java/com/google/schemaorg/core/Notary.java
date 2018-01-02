@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Notary}">http://schema.org/Notary}</a>. */
+/** Interface of <a href="http://schema.org/Notary">http://schema.org/Notary</a>. */
 public interface Notary extends LegalService {
 
-  /** Builder interface of <a href="http://schema.org/Notary}">http://schema.org/Notary}</a>. */
+  /** Builder interface of <a href="http://schema.org/Notary">http://schema.org/Notary</a>. */
   public interface Builder extends LegalService.Builder {
 
     @Override

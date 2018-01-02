@@ -17,6 +17,6 @@
 package com.google.schemaorg.core;
 
 /**
- * Interface of <a href="http://schema.org/EventStatusType}">http://schema.org/EventStatusType}</a>.
+ * Interface of <a href="http://schema.org/EventStatusType">http://schema.org/EventStatusType</a>.
  */
 public interface EventStatusType extends Enumeration {}

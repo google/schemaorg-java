@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/BookmarkAction}">http://schema.org/BookmarkAction}</a>.
+ * Interface of <a href="http://schema.org/BookmarkAction">http://schema.org/BookmarkAction</a>.
  */
 public interface BookmarkAction extends OrganizeAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BookmarkAction}">http://schema.org/BookmarkAction}</a>.
+   * href="http://schema.org/BookmarkAction">http://schema.org/BookmarkAction</a>.
    */
   public interface Builder extends OrganizeAction.Builder {
 

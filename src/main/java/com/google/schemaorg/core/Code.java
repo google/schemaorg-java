@@ -27,10 +27,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Code}">http://schema.org/Code}</a>. */
+/** Interface of <a href="http://schema.org/Code">http://schema.org/Code</a>. */
 public interface Code extends CreativeWork {
 
-  /** Builder interface of <a href="http://schema.org/Code}">http://schema.org/Code}</a>. */
+  /** Builder interface of <a href="http://schema.org/Code">http://schema.org/Code</a>. */
   public interface Builder extends CreativeWork.Builder {
 
     @Override

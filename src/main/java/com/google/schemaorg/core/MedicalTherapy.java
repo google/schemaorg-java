@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/MedicalTherapy}">http://schema.org/MedicalTherapy}</a>.
+ * Interface of <a href="http://schema.org/MedicalTherapy">http://schema.org/MedicalTherapy</a>.
  */
 public interface MedicalTherapy extends MedicalEntity {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalTherapy}">http://schema.org/MedicalTherapy}</a>.
+   * href="http://schema.org/MedicalTherapy">http://schema.org/MedicalTherapy</a>.
    */
   public interface Builder extends MedicalEntity.Builder {
 

@@ -28,12 +28,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ImageObject}">http://schema.org/ImageObject}</a>. */
+/** Interface of <a href="http://schema.org/ImageObject">http://schema.org/ImageObject</a>. */
 public interface ImageObject extends MediaObject {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ImageObject}">http://schema.org/ImageObject}</a>.
+   * href="http://schema.org/ImageObject">http://schema.org/ImageObject</a>.
    */
   public interface Builder extends MediaObject.Builder {
 

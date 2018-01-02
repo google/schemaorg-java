@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/PropertyValueSpecification}">http://schema.org/PropertyValueSpecification}</a>.
+ * href="http://schema.org/PropertyValueSpecification">http://schema.org/PropertyValueSpecification</a>.
  */
 public interface PropertyValueSpecification extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PropertyValueSpecification}">http://schema.org/PropertyValueSpecification}</a>.
+   * href="http://schema.org/PropertyValueSpecification">http://schema.org/PropertyValueSpecification</a>.
    */
   public interface Builder extends Intangible.Builder {
 

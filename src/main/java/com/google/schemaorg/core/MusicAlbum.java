@@ -28,11 +28,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/MusicAlbum}">http://schema.org/MusicAlbum}</a>. */
+/** Interface of <a href="http://schema.org/MusicAlbum">http://schema.org/MusicAlbum</a>. */
 public interface MusicAlbum extends MusicPlaylist {
 
   /**
-   * Builder interface of <a href="http://schema.org/MusicAlbum}">http://schema.org/MusicAlbum}</a>.
+   * Builder interface of <a href="http://schema.org/MusicAlbum">http://schema.org/MusicAlbum</a>.
    */
   public interface Builder extends MusicPlaylist.Builder {
 

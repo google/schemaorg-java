@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BorrowAction}">http://schema.org/BorrowAction}</a>. */
+/** Interface of <a href="http://schema.org/BorrowAction">http://schema.org/BorrowAction</a>. */
 public interface BorrowAction extends TransferAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BorrowAction}">http://schema.org/BorrowAction}</a>.
+   * href="http://schema.org/BorrowAction">http://schema.org/BorrowAction</a>.
    */
   public interface Builder extends TransferAction.Builder {
 

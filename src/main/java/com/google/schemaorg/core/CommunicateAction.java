@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/CommunicateAction}">http://schema.org/CommunicateAction}</a>.
+ * href="http://schema.org/CommunicateAction">http://schema.org/CommunicateAction</a>.
  */
 public interface CommunicateAction extends InteractAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/CommunicateAction}">http://schema.org/CommunicateAction}</a>.
+   * href="http://schema.org/CommunicateAction">http://schema.org/CommunicateAction</a>.
    */
   public interface Builder extends InteractAction.Builder {
 

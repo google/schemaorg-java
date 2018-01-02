@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/EngineSpecification}">http://schema.org/EngineSpecification}</a>.
+ * href="http://schema.org/EngineSpecification">http://schema.org/EngineSpecification</a>.
  */
 public interface EngineSpecification extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/EngineSpecification}">http://schema.org/EngineSpecification}</a>.
+   * href="http://schema.org/EngineSpecification">http://schema.org/EngineSpecification</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

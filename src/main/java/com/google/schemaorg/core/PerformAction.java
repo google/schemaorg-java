@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/PerformAction}">http://schema.org/PerformAction}</a>. */
+/** Interface of <a href="http://schema.org/PerformAction">http://schema.org/PerformAction</a>. */
 public interface PerformAction extends PlayAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PerformAction}">http://schema.org/PerformAction}</a>.
+   * href="http://schema.org/PerformAction">http://schema.org/PerformAction</a>.
    */
   public interface Builder extends PlayAction.Builder {
 

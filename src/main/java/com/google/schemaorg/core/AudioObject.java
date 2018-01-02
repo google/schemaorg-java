@@ -28,12 +28,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/AudioObject}">http://schema.org/AudioObject}</a>. */
+/** Interface of <a href="http://schema.org/AudioObject">http://schema.org/AudioObject</a>. */
 public interface AudioObject extends MediaObject {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AudioObject}">http://schema.org/AudioObject}</a>.
+   * href="http://schema.org/AudioObject">http://schema.org/AudioObject</a>.
    */
   public interface Builder extends MediaObject.Builder {
 

@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/FollowAction}">http://schema.org/FollowAction}</a>. */
+/** Interface of <a href="http://schema.org/FollowAction">http://schema.org/FollowAction</a>. */
 public interface FollowAction extends InteractAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/FollowAction}">http://schema.org/FollowAction}</a>.
+   * href="http://schema.org/FollowAction">http://schema.org/FollowAction</a>.
    */
   public interface Builder extends InteractAction.Builder {
 

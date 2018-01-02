@@ -25,10 +25,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Thing}">http://schema.org/Thing}</a>. */
+/** Interface of <a href="http://schema.org/Thing">http://schema.org/Thing</a>. */
 public interface Thing extends JsonLdNode, SchemaOrgType {
 
-  /** Builder interface of <a href="http://schema.org/Thing}">http://schema.org/Thing}</a>. */
+  /** Builder interface of <a href="http://schema.org/Thing">http://schema.org/Thing</a>. */
   public interface Builder extends JsonLdNode.Builder, SchemaOrgType.Builder {
 
     @Override

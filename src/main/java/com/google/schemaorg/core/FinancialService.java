@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/FinancialService}">http://schema.org/FinancialService}</a>.
+ * href="http://schema.org/FinancialService">http://schema.org/FinancialService</a>.
  */
 public interface FinancialService extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/FinancialService}">http://schema.org/FinancialService}</a>.
+   * href="http://schema.org/FinancialService">http://schema.org/FinancialService</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

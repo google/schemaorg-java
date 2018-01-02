@@ -26,12 +26,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/EmployeeRole}">http://schema.org/EmployeeRole}</a>. */
+/** Interface of <a href="http://schema.org/EmployeeRole">http://schema.org/EmployeeRole</a>. */
 public interface EmployeeRole extends OrganizationRole {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/EmployeeRole}">http://schema.org/EmployeeRole}</a>.
+   * href="http://schema.org/EmployeeRole">http://schema.org/EmployeeRole</a>.
    */
   public interface Builder extends OrganizationRole.Builder {
 

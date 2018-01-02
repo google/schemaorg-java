@@ -24,13 +24,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/StructuredValue}">http://schema.org/StructuredValue}</a>.
+ * Interface of <a href="http://schema.org/StructuredValue">http://schema.org/StructuredValue</a>.
  */
 public interface StructuredValue extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/StructuredValue}">http://schema.org/StructuredValue}</a>.
+   * href="http://schema.org/StructuredValue">http://schema.org/StructuredValue</a>.
    */
   public interface Builder extends Intangible.Builder {
 

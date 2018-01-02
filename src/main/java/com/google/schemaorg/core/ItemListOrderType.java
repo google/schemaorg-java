@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/ItemListOrderType}">http://schema.org/ItemListOrderType}</a>.
+ * href="http://schema.org/ItemListOrderType">http://schema.org/ItemListOrderType</a>.
  */
 public interface ItemListOrderType extends Enumeration {}

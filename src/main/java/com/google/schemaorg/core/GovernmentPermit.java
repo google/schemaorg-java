@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/GovernmentPermit}">http://schema.org/GovernmentPermit}</a>.
+ * href="http://schema.org/GovernmentPermit">http://schema.org/GovernmentPermit</a>.
  */
 public interface GovernmentPermit extends Permit {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/GovernmentPermit}">http://schema.org/GovernmentPermit}</a>.
+   * href="http://schema.org/GovernmentPermit">http://schema.org/GovernmentPermit</a>.
    */
   public interface Builder extends Permit.Builder {
 

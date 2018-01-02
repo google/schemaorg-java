@@ -24,13 +24,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/BuddhistTemple}">http://schema.org/BuddhistTemple}</a>.
+ * Interface of <a href="http://schema.org/BuddhistTemple">http://schema.org/BuddhistTemple</a>.
  */
 public interface BuddhistTemple extends PlaceOfWorship {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BuddhistTemple}">http://schema.org/BuddhistTemple}</a>.
+   * href="http://schema.org/BuddhistTemple">http://schema.org/BuddhistTemple</a>.
    */
   public interface Builder extends PlaceOfWorship.Builder {
 

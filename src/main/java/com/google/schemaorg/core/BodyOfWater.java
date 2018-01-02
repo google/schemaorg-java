@@ -23,12 +23,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/BodyOfWater}">http://schema.org/BodyOfWater}</a>. */
+/** Interface of <a href="http://schema.org/BodyOfWater">http://schema.org/BodyOfWater</a>. */
 public interface BodyOfWater extends Landform {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BodyOfWater}">http://schema.org/BodyOfWater}</a>.
+   * href="http://schema.org/BodyOfWater">http://schema.org/BodyOfWater</a>.
    */
   public interface Builder extends Landform.Builder {
 

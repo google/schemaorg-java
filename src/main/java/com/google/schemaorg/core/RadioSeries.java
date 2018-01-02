@@ -28,12 +28,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/RadioSeries}">http://schema.org/RadioSeries}</a>. */
+/** Interface of <a href="http://schema.org/RadioSeries">http://schema.org/RadioSeries</a>. */
 public interface RadioSeries extends CreativeWorkSeries {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RadioSeries}">http://schema.org/RadioSeries}</a>.
+   * href="http://schema.org/RadioSeries">http://schema.org/RadioSeries</a>.
    */
   public interface Builder extends CreativeWorkSeries.Builder {
 

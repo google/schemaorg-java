@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/GovernmentOffice}">http://schema.org/GovernmentOffice}</a>.
+ * href="http://schema.org/GovernmentOffice">http://schema.org/GovernmentOffice</a>.
  */
 public interface GovernmentOffice extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/GovernmentOffice}">http://schema.org/GovernmentOffice}</a>.
+   * href="http://schema.org/GovernmentOffice">http://schema.org/GovernmentOffice</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

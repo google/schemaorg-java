@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/SportsOrganization}">http://schema.org/SportsOrganization}</a>.
+ * href="http://schema.org/SportsOrganization">http://schema.org/SportsOrganization</a>.
  */
 public interface SportsOrganization extends Organization {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/SportsOrganization}">http://schema.org/SportsOrganization}</a>.
+   * href="http://schema.org/SportsOrganization">http://schema.org/SportsOrganization</a>.
    */
   public interface Builder extends Organization.Builder {
 

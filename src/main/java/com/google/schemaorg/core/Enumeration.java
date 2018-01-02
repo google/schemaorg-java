@@ -19,7 +19,7 @@ package com.google.schemaorg.core;
 import com.google.common.collect.ImmutableList;
 import com.google.schemaorg.SchemaOrgType;
 
-/** Interface of <a href="http://schema.org/Enumeration}">http://schema.org/Enumeration}</a>. */
+/** Interface of <a href="http://schema.org/Enumeration">http://schema.org/Enumeration</a>. */
 public interface Enumeration extends Intangible {
 
   /**

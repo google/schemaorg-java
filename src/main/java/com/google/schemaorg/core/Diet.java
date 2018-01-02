@@ -28,10 +28,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Diet}">http://schema.org/Diet}</a>. */
+/** Interface of <a href="http://schema.org/Diet">http://schema.org/Diet</a>. */
 public interface Diet extends CreativeWork, LifestyleModification {
 
-  /** Builder interface of <a href="http://schema.org/Diet}">http://schema.org/Diet}</a>. */
+  /** Builder interface of <a href="http://schema.org/Diet">http://schema.org/Diet</a>. */
   public interface Builder extends CreativeWork.Builder, LifestyleModification.Builder {
 
     @Override

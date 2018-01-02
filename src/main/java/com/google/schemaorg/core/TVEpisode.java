@@ -28,11 +28,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/TVEpisode}">http://schema.org/TVEpisode}</a>. */
+/** Interface of <a href="http://schema.org/TVEpisode">http://schema.org/TVEpisode</a>. */
 public interface TVEpisode extends Episode {
 
   /**
-   * Builder interface of <a href="http://schema.org/TVEpisode}">http://schema.org/TVEpisode}</a>.
+   * Builder interface of <a href="http://schema.org/TVEpisode">http://schema.org/TVEpisode</a>.
    */
   public interface Builder extends Episode.Builder {
 

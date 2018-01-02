@@ -27,12 +27,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/VideoGameClip}">http://schema.org/VideoGameClip}</a>. */
+/** Interface of <a href="http://schema.org/VideoGameClip">http://schema.org/VideoGameClip</a>. */
 public interface VideoGameClip extends Clip {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/VideoGameClip}">http://schema.org/VideoGameClip}</a>.
+   * href="http://schema.org/VideoGameClip">http://schema.org/VideoGameClip</a>.
    */
   public interface Builder extends Clip.Builder {
 

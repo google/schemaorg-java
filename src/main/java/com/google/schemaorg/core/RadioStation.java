@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/RadioStation}">http://schema.org/RadioStation}</a>. */
+/** Interface of <a href="http://schema.org/RadioStation">http://schema.org/RadioStation</a>. */
 public interface RadioStation extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RadioStation}">http://schema.org/RadioStation}</a>.
+   * href="http://schema.org/RadioStation">http://schema.org/RadioStation</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

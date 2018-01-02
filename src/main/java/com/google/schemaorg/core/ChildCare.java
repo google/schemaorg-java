@@ -24,11 +24,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/ChildCare}">http://schema.org/ChildCare}</a>. */
+/** Interface of <a href="http://schema.org/ChildCare">http://schema.org/ChildCare</a>. */
 public interface ChildCare extends LocalBusiness {
 
   /**
-   * Builder interface of <a href="http://schema.org/ChildCare}">http://schema.org/ChildCare}</a>.
+   * Builder interface of <a href="http://schema.org/ChildCare">http://schema.org/ChildCare</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

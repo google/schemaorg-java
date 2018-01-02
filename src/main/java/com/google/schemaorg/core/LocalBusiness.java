@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/LocalBusiness}">http://schema.org/LocalBusiness}</a>. */
+/** Interface of <a href="http://schema.org/LocalBusiness">http://schema.org/LocalBusiness</a>. */
 public interface LocalBusiness extends LocalBusinessCivicStructureCommon, Organization {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/LocalBusiness}">http://schema.org/LocalBusiness}</a>.
+   * href="http://schema.org/LocalBusiness">http://schema.org/LocalBusiness</a>.
    */
   public interface Builder extends LocalBusinessCivicStructureCommon.Builder, Organization.Builder {
 

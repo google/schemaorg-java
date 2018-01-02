@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/Specialty}">http://schema.org/Specialty}</a>. */
+/** Interface of <a href="http://schema.org/Specialty">http://schema.org/Specialty</a>. */
 public interface Specialty extends Enumeration {}

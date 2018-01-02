@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Organization}">http://schema.org/Organization}</a>. */
+/** Interface of <a href="http://schema.org/Organization">http://schema.org/Organization</a>. */
 public interface Organization extends PlaceOrganizationCommon {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/Organization}">http://schema.org/Organization}</a>.
+   * href="http://schema.org/Organization">http://schema.org/Organization</a>.
    */
   public interface Builder extends PlaceOrganizationCommon.Builder {
 

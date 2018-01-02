@@ -24,13 +24,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/SeaBodyOfWater}">http://schema.org/SeaBodyOfWater}</a>.
+ * Interface of <a href="http://schema.org/SeaBodyOfWater">http://schema.org/SeaBodyOfWater</a>.
  */
 public interface SeaBodyOfWater extends BodyOfWater {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/SeaBodyOfWater}">http://schema.org/SeaBodyOfWater}</a>.
+   * href="http://schema.org/SeaBodyOfWater">http://schema.org/SeaBodyOfWater</a>.
    */
   public interface Builder extends BodyOfWater.Builder {
 

@@ -28,11 +28,11 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/VideoGame}">http://schema.org/VideoGame}</a>. */
+/** Interface of <a href="http://schema.org/VideoGame">http://schema.org/VideoGame</a>. */
 public interface VideoGame extends Game, SoftwareApplication {
 
   /**
-   * Builder interface of <a href="http://schema.org/VideoGame}">http://schema.org/VideoGame}</a>.
+   * Builder interface of <a href="http://schema.org/VideoGame">http://schema.org/VideoGame</a>.
    */
   public interface Builder extends Game.Builder, SoftwareApplication.Builder {
 

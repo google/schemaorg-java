@@ -28,10 +28,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DataFeed}">http://schema.org/DataFeed}</a>. */
+/** Interface of <a href="http://schema.org/DataFeed">http://schema.org/DataFeed</a>. */
 public interface DataFeed extends Dataset {
 
-  /** Builder interface of <a href="http://schema.org/DataFeed}">http://schema.org/DataFeed}</a>. */
+  /** Builder interface of <a href="http://schema.org/DataFeed">http://schema.org/DataFeed</a>. */
   public interface Builder extends Dataset.Builder {
 
     @Override

@@ -28,13 +28,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/CollectionPage}">http://schema.org/CollectionPage}</a>.
+ * Interface of <a href="http://schema.org/CollectionPage">http://schema.org/CollectionPage</a>.
  */
 public interface CollectionPage extends WebPage {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/CollectionPage}">http://schema.org/CollectionPage}</a>.
+   * href="http://schema.org/CollectionPage">http://schema.org/CollectionPage</a>.
    */
   public interface Builder extends WebPage.Builder {
 

@@ -28,12 +28,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/NewsArticle}">http://schema.org/NewsArticle}</a>. */
+/** Interface of <a href="http://schema.org/NewsArticle">http://schema.org/NewsArticle</a>. */
 public interface NewsArticle extends Article {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/NewsArticle}">http://schema.org/NewsArticle}</a>.
+   * href="http://schema.org/NewsArticle">http://schema.org/NewsArticle</a>.
    */
   public interface Builder extends Article.Builder {
 

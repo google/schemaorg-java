@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/AutoWash}">http://schema.org/AutoWash}</a>. */
+/** Interface of <a href="http://schema.org/AutoWash">http://schema.org/AutoWash</a>. */
 public interface AutoWash extends AutomotiveBusiness {
 
-  /** Builder interface of <a href="http://schema.org/AutoWash}">http://schema.org/AutoWash}</a>. */
+  /** Builder interface of <a href="http://schema.org/AutoWash">http://schema.org/AutoWash</a>. */
   public interface Builder extends AutomotiveBusiness.Builder {
 
     @Override

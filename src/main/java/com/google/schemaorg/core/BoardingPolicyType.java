@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/BoardingPolicyType}">http://schema.org/BoardingPolicyType}</a>.
+ * href="http://schema.org/BoardingPolicyType">http://schema.org/BoardingPolicyType</a>.
  */
 public interface BoardingPolicyType extends Enumeration {}

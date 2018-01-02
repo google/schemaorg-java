@@ -17,6 +17,6 @@
 package com.google.schemaorg.core;
 
 /**
- * Interface of <a href="http://schema.org/BookFormatType}">http://schema.org/BookFormatType}</a>.
+ * Interface of <a href="http://schema.org/BookFormatType">http://schema.org/BookFormatType</a>.
  */
 public interface BookFormatType extends Enumeration {}

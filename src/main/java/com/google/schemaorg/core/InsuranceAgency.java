@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/InsuranceAgency}">http://schema.org/InsuranceAgency}</a>.
+ * Interface of <a href="http://schema.org/InsuranceAgency">http://schema.org/InsuranceAgency</a>.
  */
 public interface InsuranceAgency extends FinancialService {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/InsuranceAgency}">http://schema.org/InsuranceAgency}</a>.
+   * href="http://schema.org/InsuranceAgency">http://schema.org/InsuranceAgency</a>.
    */
   public interface Builder extends FinancialService.Builder {
 

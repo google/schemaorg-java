@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/ContactPointOption}">http://schema.org/ContactPointOption}</a>.
+ * href="http://schema.org/ContactPointOption">http://schema.org/ContactPointOption</a>.
  */
 public interface ContactPointOption extends Enumeration {}

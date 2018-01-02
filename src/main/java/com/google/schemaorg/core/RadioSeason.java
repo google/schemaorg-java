@@ -27,12 +27,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/RadioSeason}">http://schema.org/RadioSeason}</a>. */
+/** Interface of <a href="http://schema.org/RadioSeason">http://schema.org/RadioSeason</a>. */
 public interface RadioSeason extends CreativeWorkSeason {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RadioSeason}">http://schema.org/RadioSeason}</a>.
+   * href="http://schema.org/RadioSeason">http://schema.org/RadioSeason</a>.
    */
   public interface Builder extends CreativeWorkSeason.Builder {
 

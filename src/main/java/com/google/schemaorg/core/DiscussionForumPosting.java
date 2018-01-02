@@ -29,13 +29,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/DiscussionForumPosting}">http://schema.org/DiscussionForumPosting}</a>.
+ * href="http://schema.org/DiscussionForumPosting">http://schema.org/DiscussionForumPosting</a>.
  */
 public interface DiscussionForumPosting extends SocialMediaPosting {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DiscussionForumPosting}">http://schema.org/DiscussionForumPosting}</a>.
+   * href="http://schema.org/DiscussionForumPosting">http://schema.org/DiscussionForumPosting</a>.
    */
   public interface Builder extends SocialMediaPosting.Builder {
 

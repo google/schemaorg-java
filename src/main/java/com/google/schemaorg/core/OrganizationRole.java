@@ -28,13 +28,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/OrganizationRole}">http://schema.org/OrganizationRole}</a>.
+ * href="http://schema.org/OrganizationRole">http://schema.org/OrganizationRole</a>.
  */
 public interface OrganizationRole extends Role {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/OrganizationRole}">http://schema.org/OrganizationRole}</a>.
+   * href="http://schema.org/OrganizationRole">http://schema.org/OrganizationRole</a>.
    */
   public interface Builder extends Role.Builder {
 

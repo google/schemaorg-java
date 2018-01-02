@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/BroadcastService}">http://schema.org/BroadcastService}</a>.
+ * href="http://schema.org/BroadcastService">http://schema.org/BroadcastService</a>.
  */
 public interface BroadcastService extends Service {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BroadcastService}">http://schema.org/BroadcastService}</a>.
+   * href="http://schema.org/BroadcastService">http://schema.org/BroadcastService</a>.
    */
   public interface Builder extends Service.Builder {
 

@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalTestPanel}">http://schema.org/MedicalTestPanel}</a>.
+ * href="http://schema.org/MedicalTestPanel">http://schema.org/MedicalTestPanel</a>.
  */
 public interface MedicalTestPanel extends MedicalTest {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MedicalTestPanel}">http://schema.org/MedicalTestPanel}</a>.
+   * href="http://schema.org/MedicalTestPanel">http://schema.org/MedicalTestPanel</a>.
    */
   public interface Builder extends MedicalTest.Builder {
 

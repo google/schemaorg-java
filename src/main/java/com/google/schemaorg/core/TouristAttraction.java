@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/TouristAttraction}">http://schema.org/TouristAttraction}</a>.
+ * href="http://schema.org/TouristAttraction">http://schema.org/TouristAttraction</a>.
  */
 public interface TouristAttraction extends Place {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/TouristAttraction}">http://schema.org/TouristAttraction}</a>.
+   * href="http://schema.org/TouristAttraction">http://schema.org/TouristAttraction</a>.
    */
   public interface Builder extends Place.Builder {
 

@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/ReservationStatusType}">http://schema.org/ReservationStatusType}</a>.
+ * href="http://schema.org/ReservationStatusType">http://schema.org/ReservationStatusType</a>.
  */
 public interface ReservationStatusType extends Enumeration {}

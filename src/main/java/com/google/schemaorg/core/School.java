@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/School}">http://schema.org/School}</a>. */
+/** Interface of <a href="http://schema.org/School">http://schema.org/School</a>. */
 public interface School extends EducationalOrganization {
 
-  /** Builder interface of <a href="http://schema.org/School}">http://schema.org/School}</a>. */
+  /** Builder interface of <a href="http://schema.org/School">http://schema.org/School</a>. */
   public interface Builder extends EducationalOrganization.Builder {
 
     @Override

@@ -25,12 +25,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/UserCheckins}">http://schema.org/UserCheckins}</a>. */
+/** Interface of <a href="http://schema.org/UserCheckins">http://schema.org/UserCheckins</a>. */
 public interface UserCheckins extends UserInteraction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/UserCheckins}">http://schema.org/UserCheckins}</a>.
+   * href="http://schema.org/UserCheckins">http://schema.org/UserCheckins</a>.
    */
   public interface Builder extends UserInteraction.Builder {
 

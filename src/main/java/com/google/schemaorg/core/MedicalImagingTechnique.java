@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalImagingTechnique}">http://schema.org/MedicalImagingTechnique}</a>.
+ * href="http://schema.org/MedicalImagingTechnique">http://schema.org/MedicalImagingTechnique</a>.
  */
 public interface MedicalImagingTechnique extends Enumeration, MedicalEnumeration {}

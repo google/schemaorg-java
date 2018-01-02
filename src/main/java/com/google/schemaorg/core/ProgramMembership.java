@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/ProgramMembership}">http://schema.org/ProgramMembership}</a>.
+ * href="http://schema.org/ProgramMembership">http://schema.org/ProgramMembership</a>.
  */
 public interface ProgramMembership extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/ProgramMembership}">http://schema.org/ProgramMembership}</a>.
+   * href="http://schema.org/ProgramMembership">http://schema.org/ProgramMembership</a>.
    */
   public interface Builder extends Intangible.Builder {
 

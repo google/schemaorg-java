@@ -16,5 +16,5 @@
 
 package com.google.schemaorg.core;
 
-/** Interface of <a href="http://schema.org/ParcelService}">http://schema.org/ParcelService}</a>. */
+/** Interface of <a href="http://schema.org/ParcelService">http://schema.org/ParcelService</a>. */
 public interface ParcelService extends DeliveryMethod {}

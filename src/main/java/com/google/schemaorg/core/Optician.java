@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Optician}">http://schema.org/Optician}</a>. */
+/** Interface of <a href="http://schema.org/Optician">http://schema.org/Optician</a>. */
 public interface Optician extends MedicalOrganization {
 
-  /** Builder interface of <a href="http://schema.org/Optician}">http://schema.org/Optician}</a>. */
+  /** Builder interface of <a href="http://schema.org/Optician">http://schema.org/Optician</a>. */
   public interface Builder extends MedicalOrganization.Builder {
 
     @Override

@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/TattooParlor}">http://schema.org/TattooParlor}</a>. */
+/** Interface of <a href="http://schema.org/TattooParlor">http://schema.org/TattooParlor</a>. */
 public interface TattooParlor extends HealthAndBeautyBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/TattooParlor}">http://schema.org/TattooParlor}</a>.
+   * href="http://schema.org/TattooParlor">http://schema.org/TattooParlor</a>.
    */
   public interface Builder extends HealthAndBeautyBusiness.Builder {
 

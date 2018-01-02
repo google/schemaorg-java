@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/PerformingGroup}">http://schema.org/PerformingGroup}</a>.
+ * Interface of <a href="http://schema.org/PerformingGroup">http://schema.org/PerformingGroup</a>.
  */
 public interface PerformingGroup extends Organization {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PerformingGroup}">http://schema.org/PerformingGroup}</a>.
+   * href="http://schema.org/PerformingGroup">http://schema.org/PerformingGroup</a>.
    */
   public interface Builder extends Organization.Builder {
 

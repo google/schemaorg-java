@@ -25,13 +25,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/AdministrativeArea}">http://schema.org/AdministrativeArea}</a>.
+ * href="http://schema.org/AdministrativeArea">http://schema.org/AdministrativeArea</a>.
  */
 public interface AdministrativeArea extends Place {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/AdministrativeArea}">http://schema.org/AdministrativeArea}</a>.
+   * href="http://schema.org/AdministrativeArea">http://schema.org/AdministrativeArea</a>.
    */
   public interface Builder extends Place.Builder {
 

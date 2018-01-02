@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Place}">http://schema.org/Place}</a>. */
+/** Interface of <a href="http://schema.org/Place">http://schema.org/Place</a>. */
 public interface Place extends PlaceOrganizationCommon {
 
-  /** Builder interface of <a href="http://schema.org/Place}">http://schema.org/Place}</a>. */
+  /** Builder interface of <a href="http://schema.org/Place">http://schema.org/Place</a>. */
   public interface Builder extends PlaceOrganizationCommon.Builder {
 
     @Override

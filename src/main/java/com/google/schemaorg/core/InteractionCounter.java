@@ -27,13 +27,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/InteractionCounter}">http://schema.org/InteractionCounter}</a>.
+ * href="http://schema.org/InteractionCounter">http://schema.org/InteractionCounter</a>.
  */
 public interface InteractionCounter extends StructuredValue {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/InteractionCounter}">http://schema.org/InteractionCounter}</a>.
+   * href="http://schema.org/InteractionCounter">http://schema.org/InteractionCounter</a>.
    */
   public interface Builder extends StructuredValue.Builder {
 

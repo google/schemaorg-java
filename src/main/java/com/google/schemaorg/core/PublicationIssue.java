@@ -30,13 +30,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/PublicationIssue}">http://schema.org/PublicationIssue}</a>.
+ * href="http://schema.org/PublicationIssue">http://schema.org/PublicationIssue</a>.
  */
 public interface PublicationIssue extends CreativeWork {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/PublicationIssue}">http://schema.org/PublicationIssue}</a>.
+   * href="http://schema.org/PublicationIssue">http://schema.org/PublicationIssue</a>.
    */
   public interface Builder extends CreativeWork.Builder {
 

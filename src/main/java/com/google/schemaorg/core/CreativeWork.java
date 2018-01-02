@@ -28,12 +28,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/CreativeWork}">http://schema.org/CreativeWork}</a>. */
+/** Interface of <a href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a>. */
 public interface CreativeWork extends Thing {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/CreativeWork}">http://schema.org/CreativeWork}</a>.
+   * href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a>.
    */
   public interface Builder extends Thing.Builder {
 

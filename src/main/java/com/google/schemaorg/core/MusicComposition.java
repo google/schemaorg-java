@@ -30,13 +30,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/MusicComposition}">http://schema.org/MusicComposition}</a>.
+ * href="http://schema.org/MusicComposition">http://schema.org/MusicComposition</a>.
  */
 public interface MusicComposition extends CreativeWork {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/MusicComposition}">http://schema.org/MusicComposition}</a>.
+   * href="http://schema.org/MusicComposition">http://schema.org/MusicComposition</a>.
    */
   public interface Builder extends CreativeWork.Builder {
 

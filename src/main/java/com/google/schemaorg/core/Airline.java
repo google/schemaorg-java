@@ -25,10 +25,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Airline}">http://schema.org/Airline}</a>. */
+/** Interface of <a href="http://schema.org/Airline">http://schema.org/Airline</a>. */
 public interface Airline extends Organization {
 
-  /** Builder interface of <a href="http://schema.org/Airline}">http://schema.org/Airline}</a>. */
+  /** Builder interface of <a href="http://schema.org/Airline">http://schema.org/Airline</a>. */
   public interface Builder extends Organization.Builder {
 
     @Override

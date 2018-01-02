@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/VeterinaryCare}">http://schema.org/VeterinaryCare}</a>.
+ * Interface of <a href="http://schema.org/VeterinaryCare">http://schema.org/VeterinaryCare</a>.
  */
 public interface VeterinaryCare extends MedicalOrganization {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/VeterinaryCare}">http://schema.org/VeterinaryCare}</a>.
+   * href="http://schema.org/VeterinaryCare">http://schema.org/VeterinaryCare</a>.
    */
   public interface Builder extends MedicalOrganization.Builder {
 

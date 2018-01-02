@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/BusinessEntityType}">http://schema.org/BusinessEntityType}</a>.
+ * href="http://schema.org/BusinessEntityType">http://schema.org/BusinessEntityType</a>.
  */
 public interface BusinessEntityType extends Enumeration {}

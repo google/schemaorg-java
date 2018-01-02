@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/PaymentStatusType}">http://schema.org/PaymentStatusType}</a>.
+ * href="http://schema.org/PaymentStatusType">http://schema.org/PaymentStatusType</a>.
  */
 public interface PaymentStatusType extends Enumeration {}

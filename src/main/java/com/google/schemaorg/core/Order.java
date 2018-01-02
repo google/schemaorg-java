@@ -26,10 +26,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Order}">http://schema.org/Order}</a>. */
+/** Interface of <a href="http://schema.org/Order">http://schema.org/Order</a>. */
 public interface Order extends Intangible {
 
-  /** Builder interface of <a href="http://schema.org/Order}">http://schema.org/Order}</a>. */
+  /** Builder interface of <a href="http://schema.org/Order">http://schema.org/Order</a>. */
   public interface Builder extends Intangible.Builder {
 
     @Override

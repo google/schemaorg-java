@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalProcedureType}">http://schema.org/MedicalProcedureType}</a>.
+ * href="http://schema.org/MedicalProcedureType">http://schema.org/MedicalProcedureType</a>.
  */
 public interface MedicalProcedureType extends Enumeration, MedicalEnumeration {}

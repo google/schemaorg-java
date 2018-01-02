@@ -24,12 +24,12 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Electrician}">http://schema.org/Electrician}</a>. */
+/** Interface of <a href="http://schema.org/Electrician">http://schema.org/Electrician</a>. */
 public interface Electrician extends HomeAndConstructionBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/Electrician}">http://schema.org/Electrician}</a>.
+   * href="http://schema.org/Electrician">http://schema.org/Electrician</a>.
    */
   public interface Builder extends HomeAndConstructionBusiness.Builder {
 

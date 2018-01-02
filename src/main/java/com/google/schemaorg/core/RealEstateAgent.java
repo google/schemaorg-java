@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/RealEstateAgent}">http://schema.org/RealEstateAgent}</a>.
+ * Interface of <a href="http://schema.org/RealEstateAgent">http://schema.org/RealEstateAgent</a>.
  */
 public interface RealEstateAgent extends LocalBusiness {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/RealEstateAgent}">http://schema.org/RealEstateAgent}</a>.
+   * href="http://schema.org/RealEstateAgent">http://schema.org/RealEstateAgent</a>.
    */
   public interface Builder extends LocalBusiness.Builder {
 

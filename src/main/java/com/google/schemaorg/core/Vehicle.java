@@ -26,10 +26,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/Vehicle}">http://schema.org/Vehicle}</a>. */
+/** Interface of <a href="http://schema.org/Vehicle">http://schema.org/Vehicle</a>. */
 public interface Vehicle extends Product {
 
-  /** Builder interface of <a href="http://schema.org/Vehicle}">http://schema.org/Vehicle}</a>. */
+  /** Builder interface of <a href="http://schema.org/Vehicle">http://schema.org/Vehicle</a>. */
   public interface Builder extends Product.Builder {
 
     @Override

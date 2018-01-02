@@ -17,6 +17,6 @@
 package com.google.schemaorg.core;
 
 /**
- * Interface of <a href="http://schema.org/MapCategoryType}">http://schema.org/MapCategoryType}</a>.
+ * Interface of <a href="http://schema.org/MapCategoryType">http://schema.org/MapCategoryType</a>.
  */
 public interface MapCategoryType extends Enumeration {}

@@ -24,10 +24,10 @@ import com.google.schemaorg.core.datatype.URL;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
-/** Interface of <a href="http://schema.org/DaySpa}">http://schema.org/DaySpa}</a>. */
+/** Interface of <a href="http://schema.org/DaySpa">http://schema.org/DaySpa</a>. */
 public interface DaySpa extends HealthAndBeautyBusiness {
 
-  /** Builder interface of <a href="http://schema.org/DaySpa}">http://schema.org/DaySpa}</a>. */
+  /** Builder interface of <a href="http://schema.org/DaySpa">http://schema.org/DaySpa</a>. */
   public interface Builder extends HealthAndBeautyBusiness.Builder {
 
     @Override

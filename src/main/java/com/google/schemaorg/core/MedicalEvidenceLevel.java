@@ -18,6 +18,6 @@ package com.google.schemaorg.core;
 
 /**
  * Interface of <a
- * href="http://schema.org/MedicalEvidenceLevel}">http://schema.org/MedicalEvidenceLevel}</a>.
+ * href="http://schema.org/MedicalEvidenceLevel">http://schema.org/MedicalEvidenceLevel</a>.
  */
 public interface MedicalEvidenceLevel extends Enumeration, MedicalEnumeration {}

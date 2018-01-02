@@ -25,13 +25,13 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /**
- * Interface of <a href="http://schema.org/DisagreeAction}">http://schema.org/DisagreeAction}</a>.
+ * Interface of <a href="http://schema.org/DisagreeAction">http://schema.org/DisagreeAction</a>.
  */
 public interface DisagreeAction extends ReactAction {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/DisagreeAction}">http://schema.org/DisagreeAction}</a>.
+   * href="http://schema.org/DisagreeAction">http://schema.org/DisagreeAction</a>.
    */
   public interface Builder extends ReactAction.Builder {
 

@@ -26,13 +26,13 @@ import javax.annotation.Nullable;
 
 /**
  * Interface of <a
- * href="http://schema.org/BroadcastChannel}">http://schema.org/BroadcastChannel}</a>.
+ * href="http://schema.org/BroadcastChannel">http://schema.org/BroadcastChannel</a>.
  */
 public interface BroadcastChannel extends Intangible {
 
   /**
    * Builder interface of <a
-   * href="http://schema.org/BroadcastChannel}">http://schema.org/BroadcastChannel}</a>.
+   * href="http://schema.org/BroadcastChannel">http://schema.org/BroadcastChannel</a>.
    */
   public interface Builder extends Intangible.Builder {
 
