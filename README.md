@@ -10,10 +10,9 @@
 
 ## <a name='Overview'>Overview</a>
 
-The Schema.org Client Library for Java is a library for creating [schema.org]
-(http://schema.org) entities. The entities can be easily serialized and
-deserialized with [JSON-LD](https://json-ld.org) format by using the JSON-LD
-serializer in the library.
+The Schema.org Client Library for Java is a library for creating [schema.org](http://schema.org) entities.
+The entities can be easily serialized and deserialized with [JSON-LD](https://json-ld.org)
+format by using the JSON-LD serializer in the library.
 
 ## <a name='Highlighted_Features'>Library Highlights</a>
 
@@ -26,14 +25,18 @@ The library has the following highlights:
 *   Every schema.org type has a corresponding Java interface which provides
     convenient setter methods for setting the values of the properties of that
     particular type.
-*   Supports serializing and deserializeing schema.org objects to and from
+*   Supports serializing and deserializing schema.org objects to and from
     JSON-LD formats.
+
+
+## <a name='Limitations'>Limitations</a>
+
+* The library is based on code generated from a specific [release](https://schema.org/docs/releases.html) of schema.org. It may not support more recent additions and changes, or third party extensions.
 
 ## <a name='Quick_Start'>Quick Start</a>
 
-Below is a simple example of creating schema.org [Thing]
-(http://schema.org/Thing) object, serialize it into JSON-LD format and
-deserialize JSON-LD back to a Thing object.
+Below is a simple example of creating schema.org [Thing](http://schema.org/Thing)
+object, serialize it into JSON-LD format and deserialize JSON-LD back to a Thing object.
 
 ```java
 JsonLdSerializer serializer = new JsonLdSerializer(true /* setPrettyPrinting */);
@@ -337,4 +340,3 @@ dependencies {
 
 -   [schema.org](https://schema.org/)
 -   [JSON-LD](https://json-ld.org)
-
