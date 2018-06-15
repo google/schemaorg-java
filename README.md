@@ -14,6 +14,9 @@ The Schema.org Client Library for Java is a library for creating [schema.org](ht
 The entities can be easily serialized and deserialized with [JSON-LD](https://json-ld.org)
 format by using the JSON-LD serializer in the library.
 
+Note that it is based on a 2016 release snapshot of Schema.org, and is not currently actively being developed. If you are interested to see updates (e.g. for Schema.org 3.4 or later), please comment in [Issue #7](https://github.com/google/schemaorg-java/issues/7).
+
+
 ## <a name='Highlighted_Features'>Library Highlights</a>
 
 The library has the following highlights:
