@@ -116,6 +116,9 @@ public interface Rating extends Intangible {
     Builder addRatingValue(Text value);
 
     /** Add a value to property ratingValue. */
+    Builder addRatingValue(Number value);
+
+    /** Add a value to property ratingValue. */
     Builder addRatingValue(String value);
 
     /** Add a value to property sameAs. */

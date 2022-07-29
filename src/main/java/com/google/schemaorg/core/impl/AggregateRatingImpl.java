@@ -222,6 +222,12 @@ public class AggregateRatingImpl extends RatingImpl implements AggregateRating {
     }
 
     @Override
+    public AggregateRating.Builder addRatingValue(Number value) {
+      return addProperty(CoreConstants.PROPERTY_RATING_VALUE, value);
+    }
+
+
+    @Override
     public AggregateRating.Builder addReviewCount(Integer value) {
       return addProperty(CoreConstants.PROPERTY_REVIEW_COUNT, value);
     }

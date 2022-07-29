@@ -190,6 +190,11 @@ public class RatingImpl extends IntangibleImpl implements Rating {
     }
 
     @Override
+    public Rating.Builder addRatingValue(Number value) {
+      return addProperty(CoreConstants.PROPERTY_RATING_VALUE, value);
+    }
+
+    @Override
     public Rating.Builder addSameAs(URL value) {
       return addProperty(CoreConstants.PROPERTY_SAME_AS, value);
     }

@@ -29,10 +29,10 @@ import com.google.schemaorg.goog.PopularityScoreSpecification;
 import javax.annotation.Nullable;
 
 /** Interface of <a href="http://schema.org/Recipe}">http://schema.org/Recipe}</a>. */
-public interface Recipe extends CreativeWork {
+public interface Recipe extends HowTo {
 
   /** Builder interface of <a href="http://schema.org/Recipe}">http://schema.org/Recipe}</a>. */
-  public interface Builder extends CreativeWork.Builder {
+  public interface Builder extends HowTo.Builder {
 
     @Override
     Builder addJsonLdContext(@Nullable JsonLdContext context);

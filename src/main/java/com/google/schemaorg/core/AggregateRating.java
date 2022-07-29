@@ -139,6 +139,9 @@ public interface AggregateRating extends Rating {
     /** Add a value to property ratingValue. */
     Builder addRatingValue(String value);
 
+    /** Add a value to property ratingValue. */
+    Builder addRatingValue(Number value);
+
     /** Add a value to property reviewCount. */
     Builder addReviewCount(Integer value);
 

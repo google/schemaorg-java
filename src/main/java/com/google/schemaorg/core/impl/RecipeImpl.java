@@ -17,8 +17,10 @@
 package com.google.schemaorg.core;
 
 import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Multimap;
+import com.google.schemaorg.SchemaOrgException;
 import com.google.schemaorg.SchemaOrgType;
 import com.google.schemaorg.SchemaOrgTypeImpl;
 import com.google.schemaorg.ValueType;
@@ -32,7 +34,7 @@ import com.google.schemaorg.goog.GoogConstants;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
 
 /** Implementation of {@link Recipe}. */
-public class RecipeImpl extends CreativeWorkImpl implements Recipe {
+public class RecipeImpl extends HowToImpl implements Recipe {
   private static final ImmutableSet<String> PROPERTY_SET = initializePropertySet();
 
   private static ImmutableSet<String> initializePropertySet() {
@@ -1111,8 +1113,68 @@ public class RecipeImpl extends CreativeWorkImpl implements Recipe {
     }
 
     @Override
+    public HowTo.Builder addEstimatedCost(Text value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addEstimatedCost(String value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addPerformTime(Duration value) {
+      return null;
+    }
+
+    @Override
     public Recipe.Builder addPrepTime(Duration value) {
       return addProperty(CoreConstants.PROPERTY_PREP_TIME, value);
+    }
+
+    @Override
+    public HowTo.Builder addStep(Text value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addStep(CreativeWork value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addStep(HowToSection value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addStep(HowToStep value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addStep(CreativeWork.Builder value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addStep(HowToSection.Builder value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addStep(HowToStep.Builder value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addSupply(Text value) {
+      return null;
+    }
+
+    @Override
+    public HowTo.Builder addTool(Text value) {
+      return null;
     }
 
     @Override
@@ -1426,6 +1488,16 @@ public class RecipeImpl extends CreativeWorkImpl implements Recipe {
     }
 
     @Override
+    public Recipe.Builder addYield(Text value) {
+      return addProperty(CoreConstants.PROPERTY_YIELD, value);
+    }
+
+    @Override
+    public Recipe.Builder addYield(QuantitativeValue value) {
+      return addProperty(CoreConstants.PROPERTY_YIELD, value);
+    }
+
+    @Override
     public Recipe.Builder addTotalTime(Duration.Builder value) {
       return addProperty(CoreConstants.PROPERTY_TOTAL_TIME, value.build());
     }
@@ -1593,8 +1665,33 @@ public class RecipeImpl extends CreativeWorkImpl implements Recipe {
   }
 
   @Override
+  public ImmutableList<SchemaOrgType> getEstimatedCostList() {
+    return getProperty(CoreConstants.PROPERTY_ESTIMATED_COST);
+  }
+
+  @Override
+  public ImmutableList<SchemaOrgType> getPerformTimeList() {
+    return getProperty(CoreConstants.PROPERTY_PERFORM_TIME);
+  }
+
+  @Override
   public ImmutableList<SchemaOrgType> getPrepTimeList() {
     return getProperty(CoreConstants.PROPERTY_PREP_TIME);
+  }
+
+  @Override
+  public ImmutableList<SchemaOrgType> getStepList() {
+    return getProperty(CoreConstants.PROPERTY_STEP);
+  }
+
+  @Override
+  public ImmutableList<SchemaOrgType> getSupplyList() {
+    return getProperty(CoreConstants.PROPERTY_SUPPLY);
+  }
+
+  @Override
+  public ImmutableList<SchemaOrgType> getToolList() {
+    return getProperty(CoreConstants.PROPERTY_TOOL);
   }
 
   @Override
@@ -1625,5 +1722,10 @@ public class RecipeImpl extends CreativeWorkImpl implements Recipe {
   @Override
   public ImmutableList<SchemaOrgType> getTotalTimeList() {
     return getProperty(CoreConstants.PROPERTY_TOTAL_TIME);
+  }
+
+  @Override
+  public ImmutableList<SchemaOrgType> getYieldList() {
+    return getProperty(CoreConstants.PROPERTY_YIELD);
   }
 }

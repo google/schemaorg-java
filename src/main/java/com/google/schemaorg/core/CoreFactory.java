@@ -984,6 +984,9 @@ public final class CoreFactory {
     return new HousePainterImpl.BuilderImpl();
   }
 
+  public static HowToStep.Builder newHowToStepBuilder() { return new HowToStepImpl.BuilderImpl(); }
+  public static HowTo.Builder newHowToBuilder() { return new HowToImpl.BuilderImpl(); }
+
   public static IceCreamShop.Builder newIceCreamShopBuilder() {
     return new IceCreamShopImpl.BuilderImpl();
   }
